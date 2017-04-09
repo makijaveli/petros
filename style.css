@@ -1,0 +1,582 @@
+/*
+	Theme Name: Petros
+	Theme URI: http://mweb.rs
+	Description: Strategy. Design. Impementation - MWEB digital agency
+	Version: 1.0.0
+	Author: Milos Avramovic (tw:@zenevoleoficire)
+	Tags: HTML5, CSS3, JS, WordPress
+
+	License: MIT
+	License URI: http://opensource.org/licenses/mit-license.php
+*/
+
+/* Main */
+
+*,
+*:after,
+*:before {
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	-webkit-font-smoothing:antialiased;
+	font-smoothing:antialiased;
+	text-rendering:optimizeLegibility;
+}
+/* html element 62.5% font-size for REM use */
+html {
+	font-size:62.5%;
+}
+
+body {
+	font-family: 'Istok Web', sans-serif;
+	background-color: #fff;
+	font-weight: 400;
+}
+
+/* clear */
+.clear:before,
+.clear:after {
+    content:' ';
+    display:table;
+}
+
+.clear:after {
+    clear:both;
+}
+
+.clear {
+    *zoom:1;
+}
+
+img {
+	max-width:100%;
+	height: auto;
+	vertical-align:bottom;
+}
+
+a {
+	color:#fff;
+	text-decoration:none;
+	-webkit-transition: all 0.5s ease-out 0s;
+	-moz-transition: all 0.5s ease-out 0s;
+	-ms-transition: all 0.5s ease-out 0s;
+	-o-transition: all 0.5s ease-out 0s;
+	transition: all 0.5s ease-out 0s;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus {
+	outline:0;
+}
+
+a:hover,
+a:active {
+	outline:0;
+}
+input:focus {
+	outline:0;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	font-weight: 400;
+}
+
+i {
+	-webkit-transition: all 0.5s ease-out 0s;
+	-moz-transition: all 0.5s ease-out 0s;
+	-ms-transition: all 0.5s ease-out 0s;
+	-o-transition: all 0.5s ease-out 0s;
+	transition: all 0.5s ease-out 0s;
+}
+
+.wrapper {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+/* End Main */
+
+/* Header */
+
+header {
+  background-color: #0059a5;
+  height: 80px;
+  line-height: 80px;
+  overflow: hidden;
+}
+
+.logo {
+  float: left;
+  line-height: 60px;
+}
+
+.navigation {
+  float: right;
+}
+
+nav {
+  float: left;
+}
+
+nav ul li {
+  float: left;
+  margin-right: 30px;
+}
+
+nav ul li a {
+  color: #fff;
+  font-size: 16px;
+}
+
+.navsocial {
+  float: right;
+}
+
+.navsocial ul li {
+  float: left;
+  margin-right: 20px;
+}
+
+.navsocial ul li:last-child {
+  margin-right: 0px;
+}
+
+.navsocial ul li i {
+  color: #fff;
+  font-size: 16px;
+}
+
+.navsocial ul li.pipe {
+  height: 30px;
+  width: 1px;
+  margin-top: 23px;
+  background-color: #fff;
+}
+
+/* End Header */
+
+/* Slider */
+
+/* Slider */
+
+ul.slider {
+	position: relative;
+	overflow: hidden;
+}
+
+ul.slider img {
+	/*opacity: 0.6;*/
+	width: 100%;
+	max-height: 620px;
+	display: block;
+	position: relative;
+}
+
+.overlay  {
+  opacity: 0.25;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  background-color: #000;
+  background-size: cover;
+  max-height: 620px;
+}
+
+.slidepost {
+	position: absolute;
+	top: 214px;
+	font-size: 22px;
+  line-height: 30px;
+	color: #fff;
+	width: 100%;
+	text-align: center;
+	z-index: 9999;
+}
+
+.slidepost h1 a {
+	font-size: 60px;
+	font-weight: 700;
+	line-height: 30px;
+	width: 50%;
+	margin: 17px auto 0px auto;
+}
+
+.slidepost h1 a:hover {
+	text-decoration: none;
+}
+
+.slidepost .slidedesc {
+  text-align: center;
+  color: #fff;
+  font-size: 22px;
+  line-height: 30px;
+}
+
+.slidepost .cta {
+	margin-top: 40px;
+}
+
+.slidepost .cta a {
+	border-radius: 20px;
+  font-size: 16px;
+  font-weight: 700;
+	padding: 14px 32px 13px 36px;
+  background-color: #0059a5;
+  text-transform: uppercase;
+}
+
+.slidepost .cta a:hover {
+	text-decoration: none;
+	color: #0059a5;
+	background-color: #fff;
+}
+
+/* End Slider */
+
+/* Sections */
+
+section {
+  padding: 100px 0px;
+  overflow: hidden;
+}
+
+section h1 {
+  font-size: 36px;
+  line-height: 30px;
+  font-weight: 700;
+  text-align: center;
+  color: #0059a5;
+  margin: 0 0 80px 0;
+}
+
+/* End Sections */
+
+/* Section Categories */
+
+.cards {
+	z-index: 9;
+	position: relative;
+	display: table;
+	min-height: 480px;
+  border-radius: 3px;
+}
+
+.card {
+	width: 25%;
+   -moz-appearance: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+   transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+   -webkit-transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+   display: table-cell;
+}
+
+.card::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.card:hover {
+  -webkit-transform: scale(1.085,1.085);
+  transform: scale(1.085,1.085);
+}
+
+
+.card:hover::after {
+    opacity: 1;
+}
+
+.cardtitle {
+	/*height: 174px;*/
+	line-height: 174px;
+	vertical-align: middle;
+	display: table-cell;
+	padding: 0px 30px;
+  position: absolute;
+  top: 200px;
+}
+
+.cardtitle h2 {
+	color: #fff;
+	font-size: 21px;
+	line-height: 30px;
+	font-weight: 700;
+}
+
+.cardinfo {
+  position: absolute;
+  bottom: 30px;
+  padding-left: 30px;
+}
+
+.cardinfo ul {
+	/*margin-top: 45px;*/
+}
+
+.cardinfo ul li {
+	margin-bottom: 0px;
+}
+
+.cardinfo ul li a {
+	font-size: 16px;
+}
+
+.cardinfo ul li::after {
+	content: "\f054";
+  font-family: FontAwesome;
+  font-size: 12px;
+	margin-left: 10px;
+	color: #fff;
+}
+
+/* End Section Categories */
+
+/* Section Blog */
+
+section.blog {
+  background-image: url(images/blog-bcg.jpg);
+}
+
+section.blog h1 {
+  color: #fff;
+}
+
+article.blog {
+  width: 280px;
+  float: left;
+  margin-right: 30px;
+  position: relative;
+}
+
+article.blog:first-of-type {
+  width: 250px;
+  margin-right: 50px;
+}
+
+article.blog:last-child {
+  margin-right: 0;
+}
+
+article.blog p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  margin: 0 0 30px 0;
+}
+
+article.blog .blogthumb {
+  position: relative;
+}
+
+article.blog .overlayblog {
+  opacity: 0.35;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  background-color: #000;
+  background-size: cover;
+  max-height: 280px;
+}
+
+article.blog:hover .overlayblog {
+  opacity: 0.7;
+}
+
+article.blog .blogtitle {
+  position: absolute;
+  top: 50px;
+  text-align: center;
+  padding: 0 10px;
+	width: 100%;
+}
+
+article.blog .blogdate {
+  color: #fff;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+article.blog h2 {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 700;
+  color: #fff;
+  margin-top: 0px;
+}
+
+article.blog h2 a {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 700;
+}
+
+article.blog .ctablog {
+	margin-top: 20px;
+}
+
+article.blog .ctablog a {
+	border-radius: 20px;
+  border: 1px solid #fff;
+  font-size: 16px;
+  font-weight: 700;
+	padding: 14px 32px 13px 36px;
+  text-transform: uppercase;
+}
+
+/* End Section Blog */
+
+/* Section Most Popular Tours */
+
+.most-popular-block {
+  width: 380px;
+  float: left;
+  margin: 0 30px 30px 0;
+  position: relative;
+}
+
+.most-popular-block:nth-child(3n+1) {
+  margin-right: 0;
+}
+
+.most-popular-block:hover {
+  cursor: pointer;
+}
+
+.most-popular-block:hover .overlaymp {
+  opacity: 0.7;
+}
+
+.most-popular-thumb {
+  position: relative;
+}
+
+.overlaymp {
+  opacity: 0.35;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  background-color: #010101;
+  background-size: cover;
+  max-height: 380px;
+}
+
+.most-popular-info {
+  position: absolute;
+  top: 110px;
+  text-align: center;
+  width: 100%;
+}
+
+.mpprice {
+  color: #fff;
+  font-size: 18px;
+  padding: 9px 28px;
+  background-color: #e53935;
+  position: absolute;
+  top: 30px;
+  border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.mpcat {
+  text-align: center;
+  color: #fff;
+  font-size: 12px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.most-popular-info h2 a {
+  color: #fff;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.ctamp {
+	margin-top: 30px;
+}
+
+.ctamp a {
+	border-radius: 20px;
+  font-size: 16px;
+  font-weight: 700;
+	padding: 14px 32px 13px 36px;
+  background-color: #e53935;
+  text-transform: uppercase;
+}
+
+/* End Section Most Popular Tours */
+
+/* Footer */
+
+footer {
+  height: 210px;
+  background-image: url(images/footer-bcg.png);
+  line-height: 210px;
+}
+
+footer a,p,span {
+  color: #fff;
+  font-size: 16px;
+  margin: 0px;
+}
+
+.fcol {
+  float: left;
+  width: 33.33%;
+}
+
+.fcol:last-child p{
+  float: right;
+  margin-top: 0px;
+}
+
+.fcol ul li {
+  float: left;
+  margin-right: 15px;
+}
+
+.fcol ul li::after {
+  content: "\f054";
+  font-family: FontAwesome;
+  font-size: 12px;
+  margin-left: 10px;
+  color: #fff;
+}
+
+.fcol .flogo {
+  text-align: center;
+  line-height: 120px;
+}
+
+.fcol .flogo img {
+  margin-bottom: 15px;
+}
+
+.fcol .flogo p {
+  text-align: center;
+  line-height: 24px;
+}
+
+/* End Footer */

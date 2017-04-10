@@ -4,9 +4,7 @@
 Template Name: Home
 */
 
-get_header();
-
-?>
+get_header(); ?>
 
   <?php get_template_part('template_parts/tp-slider'); ?>
 
@@ -18,8 +16,4 @@ get_header();
 
   <div class="clear"></div>
 
-<?php
-
-get_footer();
-
-?>
+<?php get_footer(); ?>

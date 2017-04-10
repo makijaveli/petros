@@ -192,6 +192,19 @@ ul.slider img {
   max-height: 620px;
 }
 
+.overlay-cards {
+    opacity: 0.6;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    background-color: rgba(0,0,0,0.8);
+    background-size: cover;
+    max-height: 620px;
+    z-index: 10
+}
+
 .slidepost {
 	position: absolute;
 	top: 214px;
@@ -277,6 +290,7 @@ section h1 {
    transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
    -webkit-transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
    display: table-cell;
+   position: relative;
 }
 
 .card::after {
@@ -294,6 +308,7 @@ section h1 {
 .card:hover {
   -webkit-transform: scale(1.085,1.085);
   transform: scale(1.085,1.085);
+  z-index: 9999
 }
 
 
@@ -309,6 +324,7 @@ section h1 {
 	padding: 0px 30px;
   position: absolute;
   top: 200px;
+  z-index: 999;
 }
 
 .cardtitle h2 {
@@ -322,6 +338,7 @@ section h1 {
   position: absolute;
   bottom: 30px;
   padding-left: 30px;
+  z-index: 999;
 }
 
 .cardinfo ul {

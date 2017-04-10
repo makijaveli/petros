@@ -14,9 +14,9 @@
 
     <div class="cards">
 
-      <div class="card">
-
-          <img src="<?php bloginfo('template_directory'); ?>/images/card1.png" alt="">
+      <div class="card" style="background-image: url('<?php bloginfo('template_directory'); ?>/images/card1.png')">
+            <div class="overlay-cards"></div>
+           
 
             <div class="cardtitle">
 
@@ -36,9 +36,9 @@
 
       </div> <!-- end card -->
 
-      <div class="card">
-
-          <img src="<?php bloginfo('template_directory'); ?>/images/card2.png" alt="">
+      <div class="card" style="background-image: url('<?php bloginfo('template_directory'); ?>/images/card2.png')">
+        <div class="overlay-cards"></div>
+          
 
           <div class="cardtitle">
 
@@ -57,10 +57,8 @@
 
       </div> <!-- end card -->
 
-      <div class="card">
-
-          <img src="<?php bloginfo('template_directory'); ?>/images/card3.png" alt="">
-
+      <div class="card" style="background-image: url('<?php bloginfo('template_directory'); ?>/images/card3.png')">          
+          <div class="overlay-cards"></div>
           <div class="cardtitle">
 
             <h2><a href="">Discover Zagreb</a></h2>
@@ -81,7 +79,8 @@
 
       </div> <!-- end card -->
 
-      <div class="card">
+      <div class="card" style="background-image: url('<?php bloginfo('template_directory'); ?>/images/card4.png')">
+          <div class="overlay-cards"></div>
 
           <img src="<?php bloginfo('template_directory'); ?>/images/card4.png" alt="">
 

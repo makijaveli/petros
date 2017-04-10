@@ -109,7 +109,6 @@ i {
 header {
   background-color: #0059a5;
   height: 80px;
-  line-height: 80px;
   overflow: hidden;
 }
 
@@ -120,20 +119,72 @@ header {
 
 .navigation {
   float: right;
+	margin-top: 33px;
 }
 
 nav {
   float: left;
 }
 
+nav ul {
+	position:relative;
+}
+
 nav ul li {
   float: left;
-  margin-right: 30px;
+	position:relative;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li#menu-item-wpml-ls-2-en a::after {
+	content: "\f107";
+	font-family: FontAwesome;
+	font-size: 12px;
+	margin-left: 10px;
+	color: #fff;
+	text-decoration: none;
+}
+
+nav ul li:last-child a:hover {
+	text-decoration: none;
 }
 
 nav ul li a {
   color: #fff;
   font-size: 16px;
+	display:block;
+	margin-right: 30px;
+}
+
+nav ul li ul.sub-menu {
+	display: none;
+	top:100%;
+	left:0;
+	background:#0059a5;
+	padding:0;
+	position: absolute;
+  z-index: 100000;
+	width: 100%;
+	margin-top: -5px;
+}
+
+nav ul li:hover ul.sub-menu {
+	display: block;
+}
+
+nav ul li ul.sub-menu li {
+	padding: 5px 0;
+	float: none;
+	margin-right: 0;
+}
+
+nav ul li ul.sub-menu li a {
+	color: #fff;
+}
+
+nav ul li ul.sub-menu li a::after {
+	display: none;
 }
 
 .navsocial {
@@ -157,7 +208,7 @@ nav ul li a {
 .navsocial ul li.pipe {
   height: 30px;
   width: 1px;
-  margin-top: 23px;
+  margin-top: -3px;
   background-color: #fff;
 }
 
@@ -457,6 +508,10 @@ article.blog .ctablog a {
   text-transform: uppercase;
 }
 
+article.blog .ctablog a:hover {
+	text-decoration: none;
+}
+
 /* End Section Blog */
 
 /* Section Most Popular Tours */
@@ -541,6 +596,10 @@ article.blog .ctablog a {
 	padding: 14px 32px 13px 36px;
   background-color: #e53935;
   text-transform: uppercase;
+}
+
+.ctamp a:hover {
+	text-decoration: none;
 }
 
 /* End Section Most Popular Tours */

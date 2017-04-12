@@ -218,12 +218,12 @@ nav ul li ul.sub-menu li a::after {
 
 /* Slider */
 
-ul.slider {
+ul.slider, .cathero {
 	position: relative;
 	overflow: hidden;
 }
 
-ul.slider img {
+ul.slider img, .cathero img {
 	/*opacity: 0.6;*/
 	width: 100%;
 	max-height: 620px;
@@ -265,6 +265,14 @@ ul.slider img {
 	width: 100%;
 	text-align: center;
 	z-index: 9999;
+}
+
+.slidepost h1 {
+	font-size: 60px;
+	font-weight: 700;
+	line-height: 30px;
+	width: 50%;
+	margin: 17px auto 30px auto;
 }
 
 .slidepost h1 a {
@@ -656,3 +664,57 @@ footer a,p,span {
 }
 
 /* End Footer */
+
+/* Category */
+
+.subcatlist {
+	height: 70px;
+	line-height: 70px;
+	margin: 0 auto;
+	display: table;
+}
+
+.subcatlist ul {
+	display: flex;
+}
+
+.subcatlist ul li {
+	float: left;
+	margin-right: 30px;
+}
+
+.subcatlist ul li a {
+	font-size: 16px;
+	font-weight: 700;
+	color: #9e9e9e;
+}
+
+.subcatlist ul li:nth-child(odd) a {
+	color: #0475d0;
+}
+
+.catline {
+	height: 1px;
+	background-color: #9e9e9e;
+}
+
+.catdesc {
+	padding-top: 130px;
+	text-align: center;
+	margin-bottom: 190px;
+}
+
+.catdesc h1 {
+	color: #0475d0;
+	margin-bottom: 40px;
+}
+
+.catdesc p {
+	color: #212121;
+	font-size: 16px;
+	line-height: 24px;
+	margin: 0 auto;
+	width: 50%;
+}
+
+/* End Category */

@@ -30,7 +30,7 @@ add_image_size('large', 700, '', true); // Large Thumbnail
 add_image_size('medium', 250, '', true); // Medium Thumbnail
 add_image_size('blog', 280, 280, true); // Blog Thumbnail
 add_image_size('most-popular', 380, 380, true); // Most Popular Tours
-add_image_size('custom-size', 700, 200, true);
+add_image_size('cat-size', 300, 480, true); // Category size
 add_image_size('custom-single', 290, 160, true);
 add_image_size('category-size', 150, 150, true); // Custom Thumbnail Size call using the_post_thumbnail('custom-size');
 }

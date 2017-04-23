@@ -26,9 +26,14 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
    		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+      <script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script> 
+
+
       <link href="https://fonts.googleapis.com/css?family=Istok+Web:400,400i,700,700i&amp;subset=latin-ext" rel="stylesheet">
 
       <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 
   		<script src="<?php bloginfo('template_directory'); ?>/js/jquery.easing.1.3.js"></script>
 
@@ -43,6 +48,43 @@
     		});
 
   		</script>
+
+      <!-- smoth scroll to div -->
+
+      <script>
+      $(function() {
+          $('a[href*=\\#]:not(href=\\#])').click(function() {
+              var target = $(this.hash);
+              target = target.length ? target : $('[name=' + this.hash.substr(1) +']');
+              if (target.length) {
+                  $('html,body').animate({
+                    scrollTop: target.offset().top
+                  }, 1000);
+                  return false;
+              }
+          });
+      });
+      </script>
+
+      <script>
+      function loadMap() {
+
+           var mapOptions = {
+              center:new google.maps.LatLng(45.804628707847236,15.95787475305633),
+              zoom:16
+           }
+
+           var map = new google.maps.Map(document.getElementById("sample"),mapOptions);
+
+           var marker = new google.maps.Marker({
+              position: new google.maps.LatLng(45.8044938,15.9559791),
+              map: map,
+              animation:google.maps.Animation.Drop
+           });
+        }
+
+        google.maps.event.addDomListener(window, 'load', loadMap);
+     </script>
 
       <?php wp_head(); ?>
 

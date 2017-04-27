@@ -26,7 +26,7 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
    		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-      <script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script> 
+      <script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
 
 
       <link href="https://fonts.googleapis.com/css?family=Istok+Web:400,400i,700,700i&amp;subset=latin-ext" rel="stylesheet">
@@ -49,11 +49,26 @@
 
   		</script>
 
+      <script>
+
+        jQuery(document).ready(function(){
+          jQuery('.gallery-slider').bxSlider({
+            slideWidth: 400,
+            minSlides: 2,
+            maxSlides: 10,
+            moveSlides: 1,
+            slideMargin: 10,
+            controls:false
+          });
+        });
+
+      </script>
+
       <!-- smoth scroll to div -->
 
       <script>
       $(function() {
-          $('a[href*=\\#]:not(href=\\#])').click(function() {
+          $(document).on('click', 'a[href^="#"]', function () {
               var target = $(this.hash);
               target = target.length ? target : $('[name=' + this.hash.substr(1) +']');
               if (target.length) {

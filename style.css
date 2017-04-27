@@ -106,10 +106,21 @@ i {
 
 /* Header */
 
-header {
+body.home header {
   background-color: #0059a5;
   height: 80px;
   overflow: hidden;
+}
+
+header {
+	background-color: transparent;
+  height: 80px;
+  overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 999;
 }
 
 .logo {
@@ -771,6 +782,14 @@ section.inquiry .inquirycta {
 	margin-top: 40px;
 }
 
+body.single-post section.inquiry {
+	background-color: #fff;
+}
+
+body.single-post section.inquiry .inquirycta a{
+	background-color: #e53935;
+}
+
 section.inquiry .inquirycta a {
 	border-radius: 20px;
   font-size: 16px;
@@ -790,6 +809,7 @@ section.inquiry .inquirycta a:hover {
 
 .ctablog {
 	margin-top: 40px;
+	margin-bottom: 10px;
 }
 
 .ctablog a {
@@ -1221,3 +1241,142 @@ section#aboutus p {
 }
 
 /* End About Us */
+
+
+/* Single One Tour */
+
+section.tourinfo {
+	color: #212121;
+	font-size: 16px;
+	padding: 0;
+}
+
+section.tourinfo p {
+	color: #212121;
+	font-size: 16px;
+}
+
+section.tourinfo ul li::before {
+	content: "\f111";
+  font-family: FontAwesome;
+  color: #0475d0;
+	margin-right: 15px;
+	font-size: 8px;
+}
+
+section#expect, section#inclusions, section#inormation, section#itinerary, section#meeting {
+	padding: 50px 0px;
+}
+
+section#expect p {
+	text-align: center;
+}
+
+section#itinerary ul li {
+	 padding-left:40px;
+	 padding-bottom: 65px;
+	 position: relative;
+	 margin-left:30px;
+	 box-sizing:border-box;
+}
+
+section#itinerary ul li:last-child {
+	padding-bottom: 0px;
+	border-left: none;
+}
+
+section#itinerary ul li:last-child::before {
+	left: -10px;
+}
+
+section#itinerary ul li {
+	border-left:5px solid #0475d0;
+}
+
+section#itinerary ul li::before {
+    background-color:#0475d0;
+    width:25px;
+    height:25px;
+    content:'';
+    border-radius:50%;
+    position:absolute;
+    left:-15px;
+    top:0;
+}
+
+section#meeting {
+	padding-bottom: 0;
+}
+
+section#meeting img {
+	float: left;
+	margin: 0px 50px 50px 0;
+}
+
+section#meeting ul {
+	margin-top: 20px;
+}
+
+section#meetingtext {
+	padding-top: 0px;
+	text-align: center;
+}
+
+.singlesections {
+	margin: 0 30px;
+	display: block;
+}
+
+.singlesections ul {
+	float: left;
+}
+
+.singlesections .pricebook {
+	float: right;
+}
+
+.pricebook {
+	color: #212121;
+	font-size: 16px;
+}
+
+.catprice {
+	float: left;
+	margin-right: 30px;
+}
+
+.ctabook {
+	float: right;
+}
+
+.ctabook a {
+	border-radius: 20px;
+  font-size: 16px;
+  font-weight: 700;
+	padding: 14px 18px 10px 18px;
+  background-color: #e53935;
+  text-transform: uppercase;
+}
+
+section#gallery .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
+	position: relative;
+	bottom: 0;
+	margin-top: 10px;
+}
+
+section#gallery .bx-wrapper .bx-pager.bx-default-pager a.active {
+	background: #212121;
+}
+
+section#gallery .bx-wrapper .bx-pager.bx-default-pager a:hover {
+	background: #212121;
+}
+
+section#gallery .bx-wrapper .bx-pager.bx-default-pager a {
+	background: rgba(33, 33, 33, 0.15);
+	width: 12px;
+	height: 12px;
+	border-radius: 12px;
+}
+
+/* End Single One Tour */

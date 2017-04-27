@@ -33,6 +33,7 @@ add_image_size('most-popular', 380, 380, true); // Most Popular Tours
 add_image_size('cat-size', 300, 480, true); // Category size
 add_image_size('blog-cat', 500, 250, true); // Category blog size
 add_image_size('blog-single', 1440, 468, true); // Category blog size
+add_image_size('galery', 400, 200, true); // Category blog size
 add_image_size('category-size', 150, 150, true); // Custom Thumbnail Size call using the_post_thumbnail('custom-size');
 }
 
@@ -99,6 +100,16 @@ function loadbxslider()
     wp_enqueue_script('bxscript', get_template_directory_uri() . '/js/jquery.bxslider.min.js', array('jquery'));
 }
 add_action('init', 'loadbxslider');
+
+add_action( 'wp_enqueue_scripts', 'load_old_jquery_fix', 100 );
+
+function load_old_jquery_fix() {
+    if ( ! is_admin() ) {
+        wp_deregister_script( 'jquery' );
+        wp_register_script( 'jquery', ( "//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js" ), false, '1.11.3' );
+        wp_enqueue_script( 'jquery' );
+    }
+}
 
 
 

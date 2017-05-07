@@ -31,8 +31,15 @@
         <div class="slidedesc"><?php echo $below; ?></div>
 
         <div class="ctablog">
+        		<a class="fancybox" href="#contact_form_pop">book tour</a>
+        		<div class="fancybox-hidden" style="display: none;">
 
-          <a href="#">book tour</a>
+            		<div id="contact_form_pop">
+                  <h1>Schedule a tour</h1>
+                  <?php echo do_shortcode( '[contact-form-7 id="124" title="Book now"]' ); ?>
+
+                </div>
+            </div>
 
         </div>
 

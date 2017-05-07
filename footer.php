@@ -31,6 +31,23 @@
 
 <?php wp_footer(); ?>
 
+<script>
+
+		var mn = $(".sticky");
+		    mns = "fixed";
+		    hdr = $('.cathero').height();
+
+		jQuery(window).scroll(function() {
+		  if( jQuery(window).scrollTop() > hdr ) {
+		    mn.addClass(mns);
+		  } else {
+		    mn.removeClass(mns);
+		  }
+		});
+
+	</script>
+
+
 </body>
 
 </html>

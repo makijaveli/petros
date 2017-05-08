@@ -1,14 +1,12 @@
 <?php
 
 /*
-* For cateogry trips
+* For subcateogries
 */
 
 get_header(); ?>
 
 <?php get_template_part('template_parts/tp-category-hero'); ?>
-
-<?php get_template_part('template_parts/tp-subcategories'); ?>
 
 <div class="wrapper">
 
@@ -16,39 +14,31 @@ get_header(); ?>
       <?php echo category_description(); ?>
   </section>
 
-  <section class="catmain">
+    <div class="cards subcards">
 
-    <?php
-
-    $category = get_the_category();
-    $theName = $category[0]->name;
-    $theChild = $category[0]->cat_ID;
-    $subcats = get_categories('child_of=' . $theChild);
-
-    ?>
-
-    <div class="cards cat">
-
-      <?php
-        foreach($subcats as $subcat) {
-
-        echo '<h1>' . $subcat->cat_name . '</h1>';
-        $subcat_posts = get_posts('cat=' . $subcat->cat_ID);
-        foreach($subcat_posts as $subcat_post) {
-            $postID = $subcat_post->ID;
-            $thumb = wp_get_attachment_image_src( get_post_thumbnail_id($postID), 'cat-size' );
-        echo '<a class="catcard" href="' . get_permalink($postID) . '">';
-
-        ?>
-
-            <div class="card" style="background: url('<?php echo $thumb[0];?>'); width:300px; height:480px;">
+        <?php
+        //get post from current category !!!
+        $category       = get_category(get_query_var('cat'));
+        $category_ID    = $category->cat_ID;
+        $args = array(
+             'posts_per_page'   => 4,
+             'cat'               => $category_ID,
+             'orderby'             => 'date', // date is primary
+             'order'               => 'ASC',
+            );
+          $query = new WP_Query($args);
+				   if ($query->have_posts()) : while ($query->have_posts()) : $query->the_post();
+           $postID = get_the_ID();
+           $thumb = wp_get_attachment_image_src( get_post_thumbnail_id($postID), 'cat-size' );
+				?>
+            <a href="<?php the_permalink() ?>" title="<?php the_title(); ?>">
+            <div class="card subcard" style="background: url('<?php echo $thumb[0];?>'); width:300px; height:480px;">
 
                 <div class="overlay-cards"></div>
 
-
                 <div class="cardtitle">
 
-                  <h2><?php echo get_the_title($postID); ?></h2>
+                  <h2><?php the_title() ?></h2>
 
                 </div>
 
@@ -58,19 +48,58 @@ get_header(); ?>
 
                 </div>
 
-            </div> <!-- end card -->
+            </div></a> <!-- end card -->
         <?php
 
-        echo '</a>';
-          }
-        } ?>
+        endwhile;
+
+        endif;
+
+        ?>
 
     </div>
 
-  </section>
+    <section class="subcatmp">
+
+      <?php
+      //get post from current category !!!
+      $category       = get_category(get_query_var('cat'));
+      $category_ID    = $category->cat_ID;
+      $args1 = array(
+           'posts_per_page'   => 6,
+           'cat'               => $category_ID,
+           'offset'             => 4,
+           'orderby'             => 'date', // date is primary
+           'order'               => 'ASC',
+          );
+        $query1 = new WP_Query($args1);
+         if ($query1->have_posts()) : while ($query1->have_posts()) : $query1->the_post();
+      ?>
+
+      <div class="othermp">
+
+        <div class="othermpthumb">
+          <?php
+            if ( has_post_thumbnail() ) {
+            the_post_thumbnail( 'mp-size' );
+            }
+          ?>
+        </div>
+
+        <a href="<?php the_permalink() ?>" title="<?php the_title(); ?>"><?php the_title() ?></a>
+
+      </div>
+
+      <?php
+        endwhile;
+
+        endif;
+      ?>
+
+    </section>
 
 </div>
 
-<?php get_template_part('template_parts/tp-category-inquiry'); ?>
+<?php get_template_part('template_parts/tp-category-inquiry-white'); ?>
 
 <?php get_footer(); ?>

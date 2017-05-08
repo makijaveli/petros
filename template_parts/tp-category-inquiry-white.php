@@ -1,4 +1,4 @@
-<section class="inquiry">
+<section class="inquiry white">
 
   <div class="wrapper">
 

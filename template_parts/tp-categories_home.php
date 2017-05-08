@@ -19,8 +19,8 @@
 
 
             <div class="cardtitle">
-
-              <h2><a href="">Discover Zagreb</a></h2>
+              <?php $category_link = get_category_link( 4 ); ?>
+              <h2><a href="<?php echo esc_url( $category_link ); ?>"><?php echo get_cat_name(4);?></a></h2>
 
             </div>
 
@@ -44,8 +44,8 @@
 
 
           <div class="cardtitle">
-
-            <h2><a href="">Discover Zagreb</a></h2>
+            <?php $category_link = get_category_link( 5 ); ?>
+            <h2><a href="<?php echo esc_url( $category_link ); ?>"><?php echo get_cat_name(5);?></a></h2>
 
           </div>
 
@@ -68,7 +68,8 @@
           <div class="overlay-cards"></div>
           <div class="cardtitle">
 
-            <h2><a href="">Discover Zagreb</a></h2>
+            <?php $category_link = get_category_link( 6 ); ?>
+            <h2><a href="<?php echo esc_url( $category_link ); ?>"><?php echo get_cat_name(6);?></a></h2>
 
           </div>
 
@@ -94,7 +95,9 @@
 
           <div class="cardtitle">
 
-            <h2><a href="">Discover Zagreb</a></h2>
+            <?php $category_link = get_category_link( 7 ); ?>
+
+            <h2><a href="<?php echo esc_url( $category_link ); ?>"><?php echo get_cat_name(7);?></a></h2>
 
           </div>
 

@@ -19,7 +19,7 @@
 
     </article>
 
-    <?php query_posts('cat=13&posts_per_page=2'); ?>
+    <?php query_posts('cat=13&posts_per_page=3'); ?>
 
     <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
@@ -45,6 +45,10 @@
 
         <h2><a href="<?php the_permalink() ?>" title="<?php the_title(); ?>"><?php the_title() ?></a></h2>
 
+        <div class="ctablogsm">
+          <a href="<?php the_permalink() ?>" title="<?php the_title(); ?>">see more</a>
+        </div>
+
       </div>
 
     </article>
@@ -56,31 +60,6 @@
 						endif;
 
 		?>
-
-    <article class="blog">
-
-      <div class="blogthumb">
-
-        <img src="<?php bloginfo('template_directory'); ?>/images/blog-test3.png" alt="">
-
-      </div>
-
-      <div class="overlayblog"></div>
-
-      <div class="blogtitle">
-
-        <h2>Most interesting places to visit in bautiful Croatia</h2>
-
-        <div class="ctablog">
-          <?php
-						$category_link = get_category_link(13);
-					?>
-          <a href="<?php echo esc_url( $category_link ); ?>">see more</a>
-        </div>
-
-      </div>
-
-    </article>
 
   </div>
 

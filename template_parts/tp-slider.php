@@ -22,7 +22,7 @@
 
         <li>
 
-          <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt'] ?>">
+          <img src="<?php echo $image['sizes']['wide-image']; ?>" width="<?php echo $image['sizes']['wide-image']; ?>" height="<?php echo $image['sizes']['wide-image']; ?>" alt="<?php echo $image['caption']; ?>" />
 
           <div class="overlay"></div>
 

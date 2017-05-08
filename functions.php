@@ -34,7 +34,8 @@ add_image_size('cat-size', 300, 480, true); // Category size
 add_image_size('blog-cat', 500, 250, true); // Category blog size
 add_image_size('blog-single', 1440, 468, true); // Category blog size
 add_image_size('galery', 400, 200, true); // Category blog size
-add_image_size('category-size', 150, 150, true); // Custom Thumbnail Size call using the_post_thumbnail('custom-size');
+add_image_size('mp-size', 120, 60, true); // Custom Thumbnail Size call using the_post_thumbnail('custom-size');
+add_image_size('wide-image', 9999, 700, false );
 }
 
 add_action( 'after_setup_theme', 'wpse_setup_theme' );

@@ -31,6 +31,16 @@
 
 <?php wp_footer(); ?>
 
+<script src="<?php bloginfo('template_directory'); ?>/js/jquery.slicknav.js"></script>
+
+		<script type="text/javascript">
+		 $(function () {
+		  $('#menu').slicknav({
+						appendTo:'.res'
+						})
+						});
+		</script>
+
 <script>
 
 		var mn = $(".sticky");

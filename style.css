@@ -166,7 +166,6 @@ nav ul li ul.sub-menu {
 	display: none;
 	top:100%;
 	left:0;
-	background:#0059a5;
 	padding:0;
 	position: absolute;
   z-index: 100000;
@@ -698,6 +697,7 @@ footer {
   height: 210px;
   background-image: url(images/footer-bcg.png);
   line-height: 210px;
+	overflow: hidden;
 }
 
 footer a,p,span {
@@ -1761,3 +1761,123 @@ section.subcatmp {
 }
 
 /* End Subcategories */
+
+
+
+/* Responsive */
+
+img.reslogo {
+	display: none;
+}
+
+.slicknav_menu {
+    display:none;
+}
+
+#menu {
+	display: none;
+}
+
+@media only screen and (max-width:768px) {
+
+	#menu {
+        display:none;
+    }
+
+		.res .slicknav_menu {
+    	display:block;
+      background-color: #0059a5;
+      background-size: 105px 30px;
+      background-repeat: no-repeat;
+      background-position: 20px 10px;
+			overflow: hidden;
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			z-index: 999;
+    }
+
+		.slicknav_nav ul {
+			margin: 0 !important;
+		}
+
+		.slicknav_nav a {
+			font-size: 18px !important;
+		}
+
+		.slicknav_nav .slicknav_row:hover {
+			background: none !important;
+		}
+
+		.slicknav_nav .slicknav_row {
+			padding: 5px 5px !important;
+		}
+
+		.slicknav_nav span.wpml-ls-display {
+			font-size: 18px !important;
+		}
+
+		.menu-header-menu-container {
+				display: table !important;
+				border-bottom: 1px solid #fff;
+				margin-bottom: 10px;
+				padding-bottom: 10px;
+		}
+
+		.ressocial {
+			margin-top: 40px;
+			text-align: center;
+			border-bottom: 1px solid #fff;
+			margin-bottom: 15px;
+		}
+
+		.ressocial h3 {
+			font-size: 18px !important;
+			margin-bottom: 0 !important;
+			font-weight: 400 !important;
+		}
+
+		.ressocial ul {
+			display: inline-block !important;
+			text-align: center;
+		}
+
+		.ressocial ul li {
+			float: left;
+			margin-right: 15px;
+		}
+
+		.ressocial ul li i {
+			font-size: 28px;
+		}
+
+		.headfoot {
+			text-align: center;
+		}
+
+		.headfoot img {
+			margin-bottom: 10px;
+		}
+
+		.headfoot p {
+			margin-bottom: 10px;
+		}
+
+		img.reslogo {
+			position: absolute;
+			top: 10px;
+			left: 10px;
+			display: block;
+			z-index: 999;
+		}
+
+
+
+	header {
+		display: none !important;
+	}
+
+}
+
+/* End Responsive */

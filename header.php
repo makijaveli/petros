@@ -18,6 +18,7 @@
 
       <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
       <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/normalize.css">
+      <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/slicknav.css">
       <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/font-awesome/css/font-awesome.min.css">
       <link href="<?php bloginfo('template_directory'); ?>/css/jquery.bxslider.css" rel="stylesheet" />
 
@@ -107,6 +108,8 @@
 
    <body <?php body_class(); ?>>
 
+     <div class="res"></div>
+
      <header class="header">
 
        <div class="wrapper">
@@ -143,3 +146,40 @@
        </div>
 
      </header>
+
+     <!-- responsive navigacija -->
+     <a href="<?php echo home_url(); ?>">
+
+		     <img class="reslogo" src="<?php bloginfo('template_directory'); ?>/images/petros-logo-res.png" alt="Šumarski fakultet">
+
+		</a>
+
+    <div id="menu">
+
+      <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
+
+      <?php wp_nav_menu( array( 'theme_location' => 'footer-menu' ) ); ?>
+
+      <div class="ressocial">
+
+        <h3>Follow us</h3>
+
+        <ul>
+          <li><a href="https://www.facebook.com/pages/Petros-Travel-Agency-putni%C4%8Dka-agencija/147790758658182"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+          <li><a href="https://www.instagram.com/explore/tags/hrvatska/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+          <li><a href="https://www.linkedin.com/company/petros-travel-agency?trk=company_name"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+        </ul>
+
+      </div>
+
+      <div class="headfoot">
+
+        <img src="<?php bloginfo('template_directory'); ?>/images/petros-logo-img.png" alt="Šumarski fakultet">
+
+        <p>Petros tour operator & DMC <br> Small groups for a great experience</p>
+
+        <p>Copyright Petros DMC 2017. <br> All rights reserved.</p>
+
+      </div>
+
+    </div>

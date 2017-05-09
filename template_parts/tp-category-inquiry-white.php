@@ -8,7 +8,15 @@
 
     <div class="inquirycta">
 
-        <a href="#">send inquiry</a>
+      <a class="fancybox" href="#contact_form_pop">send inquiry</a>
+      <div class="fancybox-hidden" style="display: none;">
+
+          <div id="contact_form_pop">
+            <h1>Schedule a tour</h1>
+            <?php echo do_shortcode( '[contact-form-7 id="124" title="Book now"]' ); ?>
+
+          </div>
+      </div>
 
     </div>
 

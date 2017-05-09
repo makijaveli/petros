@@ -12,9 +12,11 @@
 
     <h1>Related articles</h1>
 
-    <?php query_posts('cat=13&posts_per_page=3'); ?>
-
-    <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+    <?php
+      $currentID = get_the_ID();
+      $my_query = new WP_Query( array('cat' => '13', 'order' => 'rand', 'showposts' => '3', 'post__not_in' => array($currentID)));
+      while ($my_query->have_posts()) : $my_query->the_post();
+    ?>
 
     <article class="blog blogrelated">
 
@@ -49,8 +51,6 @@
     <?php
 
 						endwhile;
-
-						endif;
 
 		?>
 

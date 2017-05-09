@@ -3,6 +3,11 @@
 <?php
           $price = get_field('price');
           $category = get_field('category');
+          $expect = get_field('what_to_expect');
+          $inclusions = get_field('inclusions');
+          $information = get_field('useful_information');
+          $itinerary = get_field('full_itinerary');
+          $meeting = get_field('meeting_point');
 ?>
   <div class="sticky">
 
@@ -10,12 +15,24 @@
     <div class="subcatlist singlesections">
 
       <ul>
-        <li><a href="#gallery">Gallery</a></li>
+        <?php if( have_rows('gallery_images') ): ?>
+          <li><a href="#gallery">Gallery</a></li>
+        <?php endif; ?>
+        <?php if($expect): ?>
         <li><a href="#expect">What to expect</a></li>
+        <?php endif; ?>
+        <?php if($inclusions): ?>
         <li><a href="#inclusions">Inclusions</a></li>
+        <?php endif; ?>
+        <?php if($information): ?>
         <li><a href="#information">Useful information</a></li>
+        <?php endif; ?>
+        <?php if($itinerary): ?>
         <li><a href="#itinerary">Full itinerary</a></li>
+        <?php endif; ?>
+        <?php if($meeting): ?>
         <li><a href="#meeting">Meeting points</a></li>
+        <?php endif; ?>
       </ul>
 
       <div class="pricebook">

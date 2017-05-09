@@ -9,10 +9,8 @@
 
     <div class="subscribeform">
 
-      <input type="text" name="" value="" placeholder="Your email address">
-
-      <input type="submit" value="subscribe"/>
-
+      <!-- mailChimp -->
+      <?php echo do_shortcode( '[mc4wp_form id="147"]' ); ?>
 
     </div>
 

@@ -31,7 +31,7 @@ get_header(); ?>
            $postID = get_the_ID();
            $thumb = wp_get_attachment_image_src( get_post_thumbnail_id($postID), 'cat-size' );
 				?>
-            <a href="<?php the_permalink() ?>" title="<?php the_title(); ?>">
+            <a href="<?php the_permalink() ?>">
             <div class="card subcard" style="background: url('<?php echo $thumb[0];?>'); width:300px; height:480px;">
 
                 <div class="overlay-cards"></div>

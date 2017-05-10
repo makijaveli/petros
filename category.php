@@ -14,7 +14,7 @@ get_header(); ?>
       <?php echo category_description(); ?>
   </section>
 
-    <div class="cards subcards">
+    <div class="cards cat">
 
         <?php
         //get post from current category !!!
@@ -31,14 +31,18 @@ get_header(); ?>
            $postID = get_the_ID();
            $thumb = wp_get_attachment_image_src( get_post_thumbnail_id($postID), 'cat-size' );
 				?>
-            <a href="<?php the_permalink() ?>">
-            <div class="card subcard" style="background: url('<?php echo $thumb[0];?>'); width:300px; height:480px;">
+      <?php  echo '<a class="catcard" href="' . get_permalink($postID) . '">';
+
+        ?>
+
+            <div class="card" style="background: url('<?php echo $thumb[0];?>'); width:300px; height:480px;">
 
                 <div class="overlay-cards"></div>
 
+
                 <div class="cardtitle">
 
-                  <h2><?php the_title() ?></h2>
+                  <h2><?php echo get_the_title($postID); ?></h2>
 
                 </div>
 
@@ -48,7 +52,10 @@ get_header(); ?>
 
                 </div>
 
-            </div></a> <!-- end card -->
+            </div> <!-- end card -->
+        <?php
+
+        echo '</a>'; ?>
         <?php
 
         endwhile;

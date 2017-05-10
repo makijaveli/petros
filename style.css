@@ -410,6 +410,7 @@ section h1 {
 	font-size: 21px;
 	line-height: 30px;
 	font-weight: 700;
+	text-align: left;
 }
 
 .cardinfo {
@@ -781,7 +782,7 @@ footer a,p,span {
 }
 
 .catdesc {
-	padding: 130px 0 0 0;
+	padding: 130px 0 90px 0;
 	text-align: center;
 }
 
@@ -807,6 +808,7 @@ footer a,p,span {
 section.catmain {
 	margin: 0 auto;
 	max-width: 900px;
+	padding-top: 0;
 }
 
 section.catmain h1 {
@@ -819,6 +821,10 @@ section.catmain h2 {
 
 a.catcard {
 	display: table-cell;
+}
+
+.category-4 a.catcard, .category-5 a.catcard, .category-6 a.catcard, .category-7 a.catcard  {
+	display: inline-block;
 }
 
 span.array {
@@ -1740,6 +1746,7 @@ section.subcatmp {
 	margin-right: 75px;
 	margin-bottom: 30px;
 	padding-bottom: 30px;
+	margin-top: 75px;
 	border-bottom: 1px solid #9e9e9e;
 	display: flex;
 }
@@ -1766,6 +1773,13 @@ section.subcatmp {
 
 /* End Subcategories */
 
+/* Page default */
+
+section.page p {
+	color: #212121;
+}
+
+/* End page default */
 
 
 /* Responsive */
@@ -2174,6 +2188,10 @@ img.reslogo {
 			margin-bottom: 15px;
 		}
 
+		.slidepost .slidedesc {
+			padding: 0px 10px;
+		}
+
 		article.blogrelated {
 			margin: 0px auto 20px auto;
 			float: none;
@@ -2211,6 +2229,67 @@ img.reslogo {
 			border-top-left-radius: 3px;
 			border-bottom-left-radius: 3px;
 		}
+
+		.catdesc {
+			padding-top: 90px;
+		}
+
+		.catdesc p {
+			width: 100%;
+		}
+
+		a.catcard {
+			display: inline-block;
+			width: 100%;
+			margin-bottom: 20px;
+		}
+
+		section.catmain {
+			padding-top: 0;
+		}
+
+		section.catmain h1 {
+			margin: 90px 0 50px 0;
+		}
+
+		#fancybox-content {
+			width: 350px !important;
+		}
+
+		#fancybox-outer {
+			width: auto !important;
+		}
+
+		#contact_form_pop h1 {
+			margin-top: 100px;
+		}
+
+		.bookleft {
+			float: none;
+		}
+
+		.bookdatef {
+			float: none;
+			margin-right: 0;
+		}
+
+		.booknumberl {
+			float: none;
+			margin-right: 0;
+		}
+
+		#contact_form_pop textarea {
+			width: 100%;
+		}
+
+		.bx-wrapper .bx-next {
+			right: 10px !important;
+		}
+
+		.bx-wrapper .bx-prev {
+			left: 10px !important;
+		}
+
 }
 
 /* End Responsive */

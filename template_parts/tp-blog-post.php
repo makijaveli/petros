@@ -20,13 +20,13 @@
 
         <h1><a href="<?php the_permalink() ?>" title="<?php the_title(); ?>"><?php the_title() ?></a></h1>
 
-        <div class="singleauthor">
+      </div>
 
-          <?php echo get_avatar( get_the_author_meta('ID'), 55); ?>
+      <div class="singleauthor">
 
-          <?php the_author(); ?>
+        <?php echo get_avatar( get_the_author_meta('ID'), 55); ?>
 
-        </div>
+        <?php the_author(); ?>
 
       </div>
 

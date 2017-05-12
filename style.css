@@ -1639,6 +1639,11 @@ input[type="date"]::-webkit-inner-spin-button{
 	bottom: -5px;
 }
 
+.page-template-page-contact-us .wpcf7-mail-sent-ok {
+	position: static;
+	bottom: 0;
+}
+
 input.hideradio{ /* HIDE RADIO */
 	visibility: hidden; /* Makes input not-clickable */
 	position: absolute; /* Remove input from document flow */
@@ -2431,6 +2436,15 @@ img.reslogo {
 
 		.bx-wrapper .bx-prev {
 			left: 10px !important;
+		}
+
+		.wpcf7-mail-sent-ok  {
+			border: none !important;
+			color: #212121;
+			font-size: 24px;
+			display: inline-block;
+			position: static;
+			bottom: 0px;
 		}
 
 }

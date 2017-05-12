@@ -22,7 +22,7 @@
       <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/font-awesome/css/font-awesome.min.css">
       <link href="<?php bloginfo('template_directory'); ?>/css/jquery.bxslider.css" rel="stylesheet" />
 
-      <link href="<?php echo get_template_directory_uri(); ?>/images/favicon.png" rel="shortcut icon">
+      <link href="<?php echo get_template_directory_uri(); ?>/images/favicon.ico" rel="shortcut icon">
 
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
    		<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -74,7 +74,7 @@
               target = target.length ? target : $('[name=' + this.hash.substr(1) +']');
               if (target.length) {
                   $('html,body').animate({
-                    scrollTop: target.offset().top
+                    scrollTop: target.offset().top -100
                   }, 1000);
                   return false;
               }
@@ -150,7 +150,7 @@
      <!-- responsive navigacija -->
      <a href="<?php echo home_url(); ?>">
 
-		     <img class="reslogo" src="<?php bloginfo('template_directory'); ?>/images/petros-logo-res.png" alt="Šumarski fakultet">
+		     <img class="reslogo" src="<?php bloginfo('template_directory'); ?>/images/petros-logo-res.png">
 
 		</a>
 
@@ -176,9 +176,9 @@
 
         <img src="<?php bloginfo('template_directory'); ?>/images/petros-logo-img.png" alt="Šumarski fakultet">
 
-        <p>Petros tour operator & DMC <br> Small groups for a great experience</p>
+        <p>Petros tour operator & DMC <br> <?php _e( 'Small groups for a great experience', 'petros' ); ?></p>
 
-        <p>Copyright Petros DMC 2017. <br> All rights reserved.</p>
+        <p>Copyright Petros DMC 2017. <br> <?php _e( 'All rights reserved.', 'petros' ); ?></p>
 
       </div>
 

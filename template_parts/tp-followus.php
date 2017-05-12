@@ -2,10 +2,17 @@
 
   <div class="wrapper">
 
-    <h1>Follow us</h1>
+    <h1><?php _e( 'Follow us', 'petros' ); ?></h1>
+
+      <?php if(ICL_LANGUAGE_CODE=='en') { ?>
 
     <p>For more informaration regarding our tours and other news you can connect, <br>
       follow and have a conversation with us on our official social media pages.</p>
+
+      <?php } else { ?>
+        <p>Za više informacija o našim turama i vestima, možete nas zapratiti i <br>
+        započeti konverzaciju sa nama na našim oficijalnim društvenim stranicama.</p>
+      <?php } ?>
 
       <div class="followsocial">
 

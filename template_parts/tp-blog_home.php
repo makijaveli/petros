@@ -12,14 +12,13 @@
 
     <h1>Blog</h1>
 
+    <?php query_posts('cat=13&posts_per_page=3'); ?>
+
     <article class="blog">
 
-      <p>You can read interesting stories, suggestions and first hand expiriences from trips. Also you can find useful info about prices and inclusions of our offers.</p>
-      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.</p>
+        <?php echo category_description(); ?>
 
     </article>
-
-    <?php query_posts('cat=13&posts_per_page=3'); ?>
 
     <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 

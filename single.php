@@ -12,7 +12,7 @@ get_header(); ?>
 
 <section id="gallery">
 
-  <h1>Gallery</h1>
+  <h1><?php _e( 'Gallery', 'petros' ); ?></h1>
   <div class="gallery-slider">
   <?php if( have_rows('gallery_images') ): ?>
 

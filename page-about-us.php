@@ -14,9 +14,9 @@ get_header(); ?>
 
   <div class="wrapperus">
 
-  <h1>Why Petros?</h1>
+  <h1><?php _e( 'Why Petros', 'petros' ); ?>?</h1>
 
-  <p>Petros is a tour operator and a destination management company <br> for small groups and great experience</p>
+  <p><?php _e( 'Petros is a tour operator and a destination management company', 'petros' ); ?> </p> <p><?php _e( 'for small groups and great experience', 'petros' ); ?> </p>
 
   <div class="works">
 
@@ -24,9 +24,9 @@ get_header(); ?>
 
         <i class="fa fa-users" aria-hidden="true"></i>
 
-        <h3>Small groups for a great experience</h3>
+        <h3><?php _e( 'Small groups for a great experience', 'petros' ); ?></h3>
 
-        <span>All of our tours and day trips are limited to 15 participants.</span>
+        <span><?php the_field('groups'); ?></span>
 
       </div>
 
@@ -34,9 +34,9 @@ get_header(); ?>
 
         <i class="fa fa-id-card" aria-hidden="true"></i>
 
-        <h3>Licensed local guides</h3>
+        <h3><?php _e( 'Licensed local guides', 'petros' ); ?></h3>
 
-        <span>Spend a day with a passionate and enthusiastic guide that has all the ins and outs.</span>
+        <span><?php the_field('licensed'); ?></span>
 
       </div>
 
@@ -44,9 +44,9 @@ get_header(); ?>
 
         <i class="fa fa-diamond" aria-hidden="true"></i>
 
-        <h3>Forget the boring facts and figures</h3>
+        <h3><?php _e( 'Forget the boring facts and figures', 'petros' ); ?></h3>
 
-        <span>We focus on the hidden gems and interesting tidbits.</span>
+        <span><?php the_field('facts_and_figures'); ?></span>
 
       </div>
 
@@ -54,9 +54,9 @@ get_header(); ?>
 
         <i class="fa fa-smile-o" aria-hidden="true"></i>
 
-        <h3>Always at your disposal</h3>
+        <h3><?php _e( 'Always at your disposal', 'petros' ); ?></h3>
 
-        <span>Our guides are here to provide a tailor made experience for you.</span>
+        <span><?php the_field('disposal'); ?></span>
 
       </div>
 
@@ -64,9 +64,9 @@ get_header(); ?>
 
         <i class="fa fa-car" aria-hidden="true"></i>
 
-        <h3>Pick up and drop off</h3>
+        <h3><?php _e( 'Pick up and drop off', 'petros' ); ?></h3>
 
-        <span> Free of charge for centrally located hotels.</span>
+        <span><?php the_field('pick_up'); ?></span>
 
       </div>
 
@@ -74,9 +74,9 @@ get_header(); ?>
 
         <i class="fa fa-graduation-cap" aria-hidden="true"></i>
 
-        <h3>Expertise and passion</h3>
+        <h3><?php _e( 'Expertise and passion', 'petros' ); ?></h3>
 
-        <span>With over 25 years of expertise in the travel industy we have shared our enthusiasm and passion with more than 100.000 satisfied guests.</span>
+        <span><?php the_field('expertise'); ?></span>
 
       </div>
 

@@ -10,7 +10,7 @@
 
   <div class="wrapper">
 
-    <h1>Most popular tours</h1>
+    <h1><?php _e( 'Most popular tours', 'petros' ); ?></h1>
 
     <?php query_posts('cat=14&posts_per_page=6'); ?>
 

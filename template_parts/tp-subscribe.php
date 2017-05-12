@@ -2,10 +2,9 @@
 
   <div class="wrapperblog">
 
-    <h1>Subscribe to our newsletter</h1>
+    <h1><?php _e( 'Subscribe to our newsletter', 'petros' ); ?></h1>
 
-    <p>Subscribe to our newsletter and get all the news and offers
-      as soon as they are ready to meet the public eye.</p>
+    <p><?php _e( 'Subscribe to our newsletter and get all the news and offers as soon as they are ready to meet the public eye.', 'petros' ); ?></p>
 
     <div class="subscribeform">
 

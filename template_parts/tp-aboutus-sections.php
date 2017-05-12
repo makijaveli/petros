@@ -2,12 +2,16 @@
 
   <div class="wrapper">
 
-    <div class="subcatlist">
+    <div class="sticky">
 
-      <ul>
-        <li><a href="#">Why Petros</a></li>
-        <li><a href="#">About Us</a></li>
-      </ul>
+      <div class="subcatlist">
+
+        <ul>
+          <li><a href="#whypetros"><?php _e( 'Why Petros', 'petros' ); ?></a></li>
+          <li><a href="#aboutus"><?php _e( 'About Us', 'petros' ); ?></a></li>
+        </ul>
+
+      </div>
 
     </div>
 

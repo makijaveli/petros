@@ -10,7 +10,7 @@
 
   <div class="wrapperrel">
 
-    <h1>Related articles</h1>
+    <h1><?php _e( 'Related articles', 'petros' ); ?></h1>
 
     <?php
       $currentID = get_the_ID();
@@ -41,7 +41,7 @@
         <h2><a href="<?php the_permalink() ?>" title="<?php the_title(); ?>"><?php the_title() ?></a></h2>
 
         <div class="ctablogsm">
-          <a href="<?php the_permalink() ?>" title="<?php the_title(); ?>">see more</a>
+          <a href="<?php the_permalink() ?>" title="<?php the_title(); ?>"><?php _e( 'see more', 'petros' ); ?></a>
         </div>
 
       </div>

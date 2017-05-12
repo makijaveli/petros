@@ -16,22 +16,22 @@
 
       <ul>
         <?php if( have_rows('gallery_images') ): ?>
-          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#gallery"><?php _e( 'Gallery', 'petros' ); ?></a></li>
         <?php endif; ?>
         <?php if($expect): ?>
-        <li><a href="#expect">What to expect</a></li>
+        <li><a href="#expect"><?php _e( 'What to expect', 'petros' ); ?></a></li>
         <?php endif; ?>
         <?php if($inclusions): ?>
-        <li><a href="#inclusions">Inclusions</a></li>
+        <li><a href="#inclusions"><?php _e( 'Inclusions', 'petros' ); ?></a></li>
         <?php endif; ?>
         <?php if($information): ?>
-        <li><a href="#information">Useful information</a></li>
+        <li><a href="#information"><?php _e( 'Useful information', 'petros' ); ?></a></li>
         <?php endif; ?>
         <?php if($itinerary): ?>
-        <li><a href="#itinerary">Full itinerary</a></li>
+        <li><a href="#itinerary"><?php _e( 'Full itinerary', 'petros' ); ?></a></li>
         <?php endif; ?>
         <?php if($meeting): ?>
-        <li><a href="#meeting">Meeting points</a></li>
+        <li><a href="#meeting"><?php _e( 'Meeting points', 'petros' ); ?></a></li>
         <?php endif; ?>
       </ul>
 
@@ -40,14 +40,19 @@
 
         <div class="ctabook">
 
-          <a class="fancybox" href="#contact_form_pop">book tour</a>
+          <a class="fancybox" href="#contact_form_pop"><?php _e( 'book tour', 'petros' ); ?></a>
           <div class="fancybox-hidden" style="display: none;">
 
-              <div id="contact_form_pop">
-                <h1>Schedule a tour</h1>
-                <?php echo do_shortcode( '[contact-form-7 id="124" title="Book now"]' ); ?>
+            <div id="contact_form_pop">
+              <?php if(ICL_LANGUAGE_CODE=='en') { ?>
+              <h1>Schedule a tour</h1>
+              <?php echo do_shortcode( '[contact-form-7 id="124" title="Book now"]' ); ?>
+              <?php } else { ?>
+              <h1>Zakažite turu</h1>
+              <?php echo do_shortcode( '[contact-form-7 id="182" title="Rezervisi"]' ); ?>
+              <?php } ?>
 
-              </div>
+            </div>
           </div>
 
         </div>

@@ -151,6 +151,15 @@ nav ul li#menu-item-wpml-ls-2-en a::after {
 	text-decoration: none;
 }
 
+nav ul li#menu-item-wpml-ls-2-hr a::after {
+	content: "\f107";
+	font-family: FontAwesome;
+	font-size: 12px;
+	margin-left: 10px;
+	color: #fff;
+	text-decoration: none;
+}
+
 nav ul li:last-child a:hover {
 	text-decoration: none;
 }
@@ -1088,7 +1097,7 @@ button:focus {
 
 .singleauthor img {
 	width: 55px;
-	height: 55px;
+	height: 55px !important;
 	border-radius: 50%;
 }
 
@@ -1536,6 +1545,10 @@ section#gallery .bx-wrapper .bx-pager.bx-default-pager a {
 	color: #212121;
 }
 
+#contact_form_pop span.wpcf7-not-valid-tip {
+	color: #f00;
+}
+
 .bookleft {
 	float: left;
 	margin-right: 30px;
@@ -1552,6 +1565,10 @@ section#gallery .bx-wrapper .bx-pager.bx-default-pager a {
 
 .bookright {
 	overflow: hidden;
+}
+
+.bookacc {
+	clear: both;
 }
 
 #contact_form_pop input[type="text"] {
@@ -1611,6 +1628,15 @@ input[type="date"]::-webkit-inner-spin-button{
 
 .bookdateu {
 	overflow: hidden;
+}
+
+.wpcf7-mail-sent-ok  {
+	border: none !important;
+	color: #212121;
+	font-size: 24px;
+	display: inline-block;
+	position: absolute;
+	bottom: -5px;
 }
 
 input.hideradio{ /* HIDE RADIO */
@@ -1687,6 +1713,7 @@ input.hideradio{ /* HIDE RADIO */
 	background-color: #f5f5f5;
 	height: 80px;
 	margin-top: 40px;
+	position: relative;
 }
 
 #contact_form_pop input[type="submit"] {
@@ -1781,6 +1808,29 @@ section.page p {
 
 /* End page default */
 
+/* Go Back on Contact Form */
+
+a.goback {
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 80px;
+	border: none;
+	width: 160px;
+	height: 80px;
+	color: #a1a1a1;
+	float: right;
+	margin-top: -16px;
+	text-align: center;
+}
+
+a.goback:hover {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+/* End Go Back on Contact Form */
+
 
 /* Responsive */
 
@@ -1854,6 +1904,90 @@ img.reslogo {
 	.footerres ul li {
 		float: left !important;
 	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+	.wrapper, .wrappersingle, .wrapperus, .wrapperblog, .wrapperrel {
+		padding: 0 20px;
+	}
+
+	article.blog {
+		margin: 0px 20px 20px auto;
+		float: left;
+	}
+
+	article.blog:first-of-type {
+		width: 280px;
+		margin-right: 20px;
+		height: auto;
+		margin-bottom: 0px;
+	}
+
+	article.blog:last-child {
+		margin-right: auto;
+	}
+
+	.most-popular-block {
+		margin: 0 auto 20px auto;
+		float: none;
+	}
+
+	.subcatlist {
+		display: none;
+	}
+
+	.subscribeform {
+		width: 100%;
+	}
+
+	.subscribeform input[type="email"] {
+		width: 100%;
+		margin-bottom: 20px;
+		float: none;
+		border-top-right-radius: 3px;
+		border-bottom-right-radius: 3px;
+	}
+
+	.subscribeform input[type="submit"] {
+		float: none;
+		border-top-left-radius: 3px;
+		border-bottom-left-radius: 3px;
+	}
+
+	#fancybox-content {
+		width: 800px !important;
+	}
+
+	#fancybox-outer {
+		width: auto !important;
+	}
+
+	#contact_form_pop h1 {
+		margin-top: 100px;
+	}
+
+	.bookleft {
+		float: none;
+	}
+
+	.bookdatef {
+		float: none;
+		margin-right: 0;
+	}
+
+	.booknumberl {
+		float: none;
+		margin-right: 0;
+	}
+
+	#contact_form_pop textarea {
+		width: 100%;
+	}
+
+	ul.slider img, .cathero img {
+		object-fit: cover;
+	}
+
 }
 
 @media only screen and (max-width:768px) {
@@ -2170,6 +2304,11 @@ img.reslogo {
 
 		ul.slider img, .cathero img {
 			object-fit: cover;
+			height: 600px;
+		}
+
+		.overlay {
+					height: 600px;
 		}
 
 		.slidepost {

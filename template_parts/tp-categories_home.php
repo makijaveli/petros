@@ -10,7 +10,7 @@
 
   <div class="wrapper">
 
-    <h1>Categories</h1>
+    <h1><?php _e( 'Categories', 'petros' ); ?></h1>
 
     <div class="cards">
 

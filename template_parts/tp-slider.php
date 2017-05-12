@@ -36,7 +36,7 @@
 
             <div class="cta">
 
-              <a href="<?php echo $link; ?>">See more</a>
+              <a href="<?php echo $link; ?>">see more</a>
 
             </div>
 

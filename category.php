@@ -48,7 +48,7 @@ get_header(); ?>
 
                 <div class="cardinfo">
 
-                  <span>See full tour</span><span class="array">></span>
+                  <span><?php _e( 'See full tour', 'petros' ); ?></span><span class="array">></span>
 
                 </div>
 
@@ -70,8 +70,8 @@ get_header(); ?>
 
       <?php
       //get post from current category !!!
-      $category       = get_category(get_query_var('cat'));
-      $category_ID    = $category->cat_ID;
+      $category1      = get_category(get_query_var('cat'));
+      $category_ID    = $category1->cat_ID;
       $args1 = array(
            'posts_per_page'   => 6,
            'cat'               => $category_ID,

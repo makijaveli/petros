@@ -19,10 +19,11 @@ get_header(); ?>
       <?php while( have_rows('gallery_images') ): the_row();
 
         $image = get_sub_field('gallery_image');
+        $url = $image['url'];
 
         ?>
 
-        <img src="<?php echo $image['sizes']['galery']; ?>" width="<?php echo $image['sizes']['galery']; ?>" height="<?php echo $image['sizes']['galery']; ?>"/>
+        <a href="<?php echo $url ?>"><img src="<?php echo $image['sizes']['galery']; ?>" width="<?php echo $image['sizes']['galery']; ?>" height="<?php echo $image['sizes']['galery']; ?>"/></a>
 
       <?php endwhile; ?>
       <?php endif; ?>

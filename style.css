@@ -1484,6 +1484,10 @@ section#meetingtext {
 	text-decoration: none;
 }
 
+section#gallery {
+	clear: both;
+}
+
 section#gallery .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
 	position: relative;
 	bottom: 0;
@@ -1510,12 +1514,12 @@ section#gallery .bx-wrapper .bx-pager.bx-default-pager a {
 /* Schedule Tour */
 
 #fancybox-outer{
-	width: 1200px !important;
+	/*width: 1200px !important;*/
 }
 
 #fancybox-content {
 	border-width: 0px !important;
-	width: 1200px !important;
+	/*width: 1200px !important;*/
 	margin: 0 auto;;
 }
 
@@ -1835,6 +1839,12 @@ a.goback:hover {
 }
 
 /* End Go Back on Contact Form */
+
+/* Gallery */
+
+
+
+/* End Gallery */
 
 
 /* Responsive */

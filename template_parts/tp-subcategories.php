@@ -1,23 +1,27 @@
 <!-- list of subcategories in one row -->
 
   <div class="wrapper">
-  
+
+    <div class="sticky">
+
     <div class="subcatlist">
 
-      <?php
-      $cat = get_query_var('cat');
-      $cat_list = wp_list_categories('child_of='.$cat.'&hide_empty&title_li=&echo=0');
-          if($cat_list) {
-          echo '<ul>';
-          echo '<li>';
-          echo $cat_list;
-          echo '</li>';
-          echo '</ul>';
-          }
+          <ul class="list-items categories">
+             <?php $category_ids = get_query_var('cat');
+             $catid = $category_ids->cat_ID;
+             $parent = $category_ids->category_parent;
+             $args = array( 'orderby' => 'slug', 'child_of' => $category_ids);
+             $categories = get_categories( $args );
+             foreach ( $categories as $category ) {
+             echo '<li><a href="#' . $category->slug . '" rel="bookmark">' . $category->name . '</a>
+             </li>'; } ?>
+          </ul>
 
-      ?>
+
 
     </div>
+
+  </div>
 
   </div>
 

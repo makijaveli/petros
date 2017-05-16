@@ -12,7 +12,7 @@ get_header(); ?>
 
 <section id="gallery">
 
-  <h1><?php _e( 'Gallery', 'petros' ); ?></h1>
+  <h2><?php _e( 'Gallery', 'petros' ); ?></h2>
   <div class="gallery-slider">
   <?php if( have_rows('gallery_images') ): ?>
 
@@ -38,31 +38,46 @@ get_header(); ?>
   <section id="expect">
 
     <div class="wrappersingle">
-        <?php the_field('what_to_expect'); ?>
+      <?php if(get_field('what_to_expect')): ?>
+        <h2><?php _e( 'What to expect', 'petros' ); ?></h2>
+      <?php endif; ?> 
+      <?php the_field('what_to_expect'); ?>
     </div>
 
   </section>
 
   <section id="inclusions">
     <div class="wrappersingle">
-    <?php the_field('inclusions'); ?>
+      <?php if(get_field('inclusions')): ?>
+        <h2><?php _e( 'Inclusions', 'petros' ); ?></h2>
+      <?php endif; ?> 
+      <?php the_field('inclusions'); ?>
     </div>
   </section>
 
   <section id="information">
     <div class="wrappersingle">
-    <?php the_field('useful_information'); ?>
+      <?php if(get_field('useful_information')): ?>
+        <h2><?php _e( 'Useful information', 'petros' ); ?></h2>
+      <?php endif; ?>
+      <?php the_field('useful_information'); ?>
     </div>
   </section>
 
   <section id="itinerary">
     <div class="wrappersingle">
-    <?php the_field('full_itinerary'); ?>
+      <?php if(get_field('full_itinerary')): ?>
+        <h2><?php _e( 'Full itinerary', 'petros' ); ?></h2>
+      <?php endif; ?>
+      <?php the_field('full_itinerary'); ?>
     </div>
   </section>
 
   <section id="meeting">
     <div class="wrapper">
+      <?php if(get_field('meeting_point')): ?>
+          <h2><?php _e( 'Meeting point', 'petros' ); ?></h2>
+      <?php endif; ?>
     <?php the_field('meeting_point'); ?>
     </div>
   </section>

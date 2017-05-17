@@ -234,6 +234,7 @@ nav ul li ul.sub-menu li a::after {
 ul.slider, .cathero {
 	position: relative;
 	overflow: hidden;
+	height: 700px;
 }
 
 ul.slider img, .cathero img {
@@ -546,6 +547,7 @@ article.blog h2 {
   font-weight: 700;
   color: #fff;
   margin-top: 0px;
+	margin-bottom: 10px;
 }
 
 article.blog h2 a {
@@ -993,6 +995,7 @@ section#subscribe p {
 	background-color: #fff;
 	float: left;
 	padding-left: 5px;
+	font-size: 16px;
 }
 
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
@@ -1549,7 +1552,7 @@ section#gallery .bx-wrapper .bx-pager.bx-default-pager a {
     cursor: pointer !important;
     z-index: 111103 !important;
     display: none !important;
-}    
+}
 
 .bookwrapper {
 	padding: 0 10px;
@@ -1582,7 +1585,7 @@ section#gallery .bx-wrapper .bx-pager.bx-default-pager a {
 }
 
 .bookleft {
-	float: left;
+	/*float: left;*/
 	margin-right: 30px;
 	overflow: hidden;
 }
@@ -1868,11 +1871,44 @@ a.goback:hover {
 
 /* End Go Back on Contact Form */
 
-/* Gallery */
+/* Apartment */
 
+#description h3 {
+	text-align: center;
+	font-size: 21px;
+}
 
+.basicinfo {
+	width: 260px;
+	margin: 0 auto 40px auto;
+}
 
-/* End Gallery */
+.basicinfo .basicleft {
+	float: left;
+	width: 150px;
+	font-weight: 700;
+}
+
+#description p {
+	text-align: center;
+}
+
+.eqinfo {
+	width: 20%;
+	float: left;
+}
+
+.eqinfo span {
+	font-size: 18px;
+	color: #0059a5;
+	font-weight: 700;
+}
+
+.eqinfo ul {
+	margin-top: 30px;
+}
+
+/* End Apartment */
 
 
 /* Google Maps */
@@ -1887,6 +1923,9 @@ a.goback:hover {
 
 .wpgmaps_blist_row:hover {background-color: #fff!important;}
 .wpgmaps_blist_row:hover .wpgmza-basic-list-item {color: #0475D0;}
+
+
+/* End Google Maps */
 
 
 
@@ -1910,6 +1949,11 @@ img.reslogo {
 	display: none;
 }
 
+.footerres {
+	display: none;
+}
+
+
 @media only screen and (max-width:1300px) {
 
 	.footercont {
@@ -1917,7 +1961,7 @@ img.reslogo {
 	}
 
 	.footerres {
-		display: none;
+		display: block;
 	}
 
 	footer {
@@ -2050,6 +2094,13 @@ img.reslogo {
 
 	ul.slider img, .cathero img {
 		object-fit: cover;
+	}
+
+	.eqinfo {
+		width: 100%;
+		float: none;
+		text-align: center;
+		margin-bottom: 20px;
 	}
 
 }
@@ -2504,6 +2555,13 @@ img.reslogo {
 			display: inline-block;
 			position: static;
 			bottom: 0px;
+		}
+
+		.eqinfo {
+			width: 100%;
+			float: none;
+			text-align: center;
+			margin-bottom: 20px;
 		}
 
 }

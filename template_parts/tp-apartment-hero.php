@@ -1,0 +1,53 @@
+<!-- single hero -->
+
+<div class="cathero">
+
+  <?php
+
+      //variables
+      //$image = get_field('image');
+      $above = get_field('above');
+      $below = get_field('below');
+  ?>
+
+        <?php
+
+        if ( has_post_thumbnail() ) {
+        the_post_thumbnail('blog-single');
+        }
+
+        ?>
+
+      <div class="overlay"></div>
+
+      <div class="slidepost">
+
+        <div class="slideheadline"><?php echo $above ?></div>
+
+          <h1><?php the_title() ?></h1>
+
+        <div class="slidedesc"><?php echo $below; ?></div>
+
+        <div class="ctablog">
+        		<a class="fancybox book" href="#contact_form_pop"><?php _e( 'book now', 'petros' ); ?></a>
+        		<div class="fancybox-hidden" style="display: none;">
+
+            		<div id="contact_form_pop">
+                  <?php if(ICL_LANGUAGE_CODE=='en') { ?>
+                  <h1>Book apartment</h1>
+                  <?php echo do_shortcode( '[contact-form-7 id="261" title="Book apartment"]' ); ?>
+                  <?php } else { ?>
+                  <h1>Rezervišite apartman</h1>
+                  <?php echo do_shortcode( '[contact-form-7 id="262" title="Rezervisi apartman"]' ); ?>
+                  <?php } ?>
+
+                </div>
+            </div>
+
+        </div>
+
+      </div>
+
+</div>
+
+<!-- single hero -->

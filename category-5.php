@@ -32,7 +32,7 @@ get_header(); ?>
       <?php
         foreach($subcats as $subcat) {
 
-        echo '<div id="' . $subcat->slug . '" </div>';  
+        echo '<div id="' . $subcat->slug . '" </div>';
         echo '<h1>' . $subcat->cat_name . '</h1>';
         $subcat_posts = get_posts('cat=' . $subcat->cat_ID);
         foreach($subcat_posts as $subcat_post) {
@@ -55,7 +55,7 @@ get_header(); ?>
 
                 <div class="cardinfo">
 
-                  <span>See full tour</span><span class="array">></span>
+                    <span><?php _e( 'See full tour', 'petros' ); ?></span><span class="array">></span>
 
                 </div>
 

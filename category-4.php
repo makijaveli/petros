@@ -55,7 +55,7 @@ get_header(); ?>
 
                 <div class="cardinfo">
 
-                  <span>See full tour</span><span class="array">></span>
+                    <span><?php _e( 'See full tour', 'petros' ); ?></span><span class="array">></span>
 
                 </div>
 

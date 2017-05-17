@@ -1,6 +1,12 @@
 <!-- single hero -->
 
-<div class="cathero">
+<?php
+
+$url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
+echo '<div class="cathero" style="background: url('. $url.'); background-size:cover; background-repeat:no-repeat;background-position:center;min-height:700px;position:relatve;">';
+
+  ?>
+
 
   <?php
 
@@ -12,13 +18,7 @@
       $category = get_field('category');
   ?>
 
-        <?php
 
-        if ( has_post_thumbnail() ) {
-        the_post_thumbnail('blog-single');
-        }
-
-        ?>
 
       <div class="overlay"></div>
 

@@ -48,7 +48,15 @@ get_header(); ?>
 
                 <div class="cardinfo">
 
-                  <span><?php _e( 'See full tour', 'petros' ); ?></span><span class="array">></span>
+                  <?php
+
+                    if ( in_category( array( 21,26 ) ) ) {  ?>
+                        <span><?php _e( 'See apartment', 'petros' ); ?></span><span class="array">></span>
+                  <?php    } else {  ?>
+                        <span><?php _e( 'See full tour', 'petros' ); ?></span><span class="array">></span>
+                    <?php  }
+
+                   ?>
 
                 </div>
 

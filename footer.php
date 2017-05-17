@@ -84,6 +84,20 @@
   </script>
 
 
+  <script type="text/javascript">
+  	$(document).ready(function() {
+  		$(".fancygal").fancybox();
+  	});
+  </script>
+
+  <script type="text/javascript">
+      $('a.fancygal').click( function() {
+        $("#fancybox-content").addClass('galerija-popup');;
+    } );
+  </script>
+
+
+
 </body>
 
 </html>

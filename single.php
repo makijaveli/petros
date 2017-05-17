@@ -13,23 +13,18 @@ get_header(); ?>
 <section id="gallery">
 
   <h2><?php _e( 'Gallery', 'petros' ); ?></h2>
-  <div class="gallery-slider">
-  <?php if( have_rows('gallery_images') ): ?>
-
+  <div class="gallery-slider">  
+    <?php if( have_rows('gallery_images') ): ?>      
       <?php while( have_rows('gallery_images') ): the_row();
-
         $image = get_sub_field('gallery_image');
-        $url = $image['url'];
-
-        ?>
-
-        <a href="<?php echo $url ?>"><img src="<?php echo $image['sizes']['galery']; ?>" width="<?php echo $image['sizes']['galery']; ?>" height="<?php echo $image['sizes']['galery']; ?>"/></a>
-
-      <?php endwhile; ?>
-      <?php endif; ?>
-    </div>
-
-
+        $url = $image['url'];       
+      ?>
+      <a class="fancygal" rel="gallery1" href="<?php echo $url ?>">
+        <img src="<?php echo $image['sizes']['galery']; ?>" width="<?php echo $image['sizes']['galery']; ?>" height="<?php echo $image['sizes']['galery']; ?>"/>
+      </a>
+    <?php endwhile; ?>      
+    <?php endif; ?>
+  </div>
 
 </section>
 
@@ -40,7 +35,7 @@ get_header(); ?>
     <div class="wrappersingle">
       <?php if(get_field('what_to_expect')): ?>
         <h2><?php _e( 'What to expect', 'petros' ); ?></h2>
-      <?php endif; ?> 
+      <?php endif; ?>
       <?php the_field('what_to_expect'); ?>
     </div>
 
@@ -50,7 +45,7 @@ get_header(); ?>
     <div class="wrappersingle">
       <?php if(get_field('inclusions')): ?>
         <h2><?php _e( 'Inclusions', 'petros' ); ?></h2>
-      <?php endif; ?> 
+      <?php endif; ?>
       <?php the_field('inclusions'); ?>
     </div>
   </section>
@@ -81,7 +76,7 @@ get_header(); ?>
       <?php// the_field('meeting_point'); ?>
       <div class="map-row">
         <?php echo do_shortcode('[wpgmza id="1"]'); ?>
-      </div> 
+      </div>
     </div>
   </section>
 

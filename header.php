@@ -28,14 +28,15 @@
       <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 
       <!-- Add fancyBox -->
-      <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/fancybox/source/jquery.fancybox.css?v=2.1.7" type="text/css" media="screen" />
-      <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/fancybox/source/jquery.fancybox.pack.js?v=2.1.7"></script>
+      <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/fancybox/source/jquery.fancybox.css" type="text/css" media="screen" />
+      <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/fancybox/source/jquery.fancybox.pack.js"></script>
 
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
    		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-      <script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
-
+      
+      <script  src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+      
 
       <link href="https://fonts.googleapis.com/css?family=Istok+Web:400,400i,700,700i&amp;subset=latin-ext" rel="stylesheet">
 
@@ -66,7 +67,8 @@
             maxSlides: 10,
             moveSlides: 1,
             slideMargin: 10,
-            controls:false
+            controls:false,
+            infiniteLoop: false
           });
         });
 
@@ -108,15 +110,6 @@
 
         google.maps.event.addDomListener(window, 'load', loadMap);
      </script>
-
-     <script>
-      $(document).ready(function() {
-      $(".fancybox").fancybox({
-       openEffect	: 'none',
-       closeEffect	: 'none'
-      });
-      });
-       </script>
 
       <?php wp_head(); ?>
 

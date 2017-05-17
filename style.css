@@ -1856,6 +1856,22 @@ a.goback:hover {
 /* End Gallery */
 
 
+/* Google Maps */
+.map-row { margin-bottom: 20px;}
+
+.wpgmza_marker_list_class.wpgmza_basic_list {
+	float: left;
+	margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
 /* Responsive */
 
 img.reslogo {

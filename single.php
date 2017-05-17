@@ -22,8 +22,9 @@ get_header(); ?>
         $url = $image['url'];
 
         ?>
-
-        <a href="<?php echo $url ?>"><img src="<?php echo $image['sizes']['galery']; ?>" width="<?php echo $image['sizes']['galery']; ?>" height="<?php echo $image['sizes']['galery']; ?>"/></a>
+        <a class="fancybox" href="<?php echo $url ?>" data-fancybox-group=”gallery”>
+          <img src="<?php echo $image['sizes']['galery']; ?>" width="<?php echo $image['sizes']['galery']; ?>" height="<?php echo $image['sizes']['galery']; ?>"/>
+        </a>
 
       <?php endwhile; ?>
       <?php endif; ?>
@@ -40,7 +41,11 @@ get_header(); ?>
     <div class="wrappersingle">
       <?php if(get_field('what_to_expect')): ?>
         <h2><?php _e( 'What to expect', 'petros' ); ?></h2>
+<<<<<<< HEAD
       <?php endif; ?> 
+=======
+      <?php endif; ?>
+>>>>>>> cfc3771acd30f80609259db1899dd5b8e369a14a
       <?php the_field('what_to_expect'); ?>
     </div>
 
@@ -50,7 +55,11 @@ get_header(); ?>
     <div class="wrappersingle">
       <?php if(get_field('inclusions')): ?>
         <h2><?php _e( 'Inclusions', 'petros' ); ?></h2>
+<<<<<<< HEAD
       <?php endif; ?> 
+=======
+      <?php endif; ?>
+>>>>>>> cfc3771acd30f80609259db1899dd5b8e369a14a
       <?php the_field('inclusions'); ?>
     </div>
   </section>
@@ -78,10 +87,16 @@ get_header(); ?>
       <?php if(get_field('meeting_point')): ?>
           <h2><?php _e( 'Meeting point', 'petros' ); ?></h2>
       <?php endif; ?>
+<<<<<<< HEAD
       <?php// the_field('meeting_point'); ?>
       <div class="map-row">
         <?php echo do_shortcode('[wpgmza id="1"]'); ?>
       </div> 
+=======
+    <?php // the_field('meeting_point'); ?>
+
+    <?php echo do_shortcode('[wpgmza id="1"]'); ?>
+>>>>>>> cfc3771acd30f80609259db1899dd5b8e369a14a
     </div>
   </section>
 

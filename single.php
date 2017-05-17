@@ -78,7 +78,10 @@ get_header(); ?>
       <?php if(get_field('meeting_point')): ?>
           <h2><?php _e( 'Meeting point', 'petros' ); ?></h2>
       <?php endif; ?>
-    <?php the_field('meeting_point'); ?>
+      <?php// the_field('meeting_point'); ?>
+      <div class="map-row">
+        <?php echo do_shortcode('[wpgmza id="1"]'); ?>
+      </div> 
     </div>
   </section>
 

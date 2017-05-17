@@ -31,7 +31,7 @@
         <div class="slidedesc"><?php echo $below; ?></div>
 
         <div class="ctablog">
-        		<a class="fancybox" href="#contact_form_pop"><?php _e( 'book tour', 'petros' ); ?></a>
+        		<a class="fancybox book" href="#contact_form_pop"><?php _e( 'book tour', 'petros' ); ?></a>
         		<div class="fancybox-hidden" style="display: none;">
 
             		<div id="contact_form_pop">

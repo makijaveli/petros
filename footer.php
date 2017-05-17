@@ -92,8 +92,15 @@
 
   <script type="text/javascript">
       $('a.fancygal').click( function() {
-        $("#fancybox-content").addClass('galerija-popup');;
-    } );
+        $("#fancybox-content").removeClass();
+        $("#fancybox-close").removeClass();
+        $("#fancybox-content").addClass('galerija-popup');
+      });
+      $('a.book').click( function() {
+        $("#fancybox-content").removeClass();
+        $("#fancybox-content").addClass('book-popup');
+        $("#fancybox-close").addClass('book');
+      });
   </script>
 
 

@@ -1437,6 +1437,7 @@ section#itinerary ul li::before {
 
 section#meeting {
 	padding-bottom: 0;
+	margin-bottom: 20px;
 }
 
 section#meeting img {
@@ -1765,7 +1766,7 @@ input.hideradio{ /* HIDE RADIO */
 	float: right;
 }
 
-#fancybox-close {
+#fancybox-close.book {
 	background: url(images/close1.png) !important;
 	background-repeat: no-repeat;
 	width: 80px !important;
@@ -1881,6 +1882,11 @@ a.goback:hover {
 	float: left;
 	margin-left: 20px;
 }
+
+.wpgmza_div_marker {padding-top: 4px;}
+
+.wpgmaps_blist_row:hover {background-color: #fff!important;}
+.wpgmaps_blist_row:hover .wpgmza-basic-list-item {color: #0475D0;}
 
 
 

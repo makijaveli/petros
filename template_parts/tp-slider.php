@@ -7,46 +7,47 @@
 ?>
 
   <?php if( have_rows('slider') ): ?>
+    <div class="home-slider">
+      <ul class="slider">
 
-    <ul class="slider">
+        <?php while( have_rows('slider') ): the_row();
 
-      <?php while( have_rows('slider') ): the_row();
+          //variables
+          $image = get_sub_field('image');
+          $link = get_sub_field('link');
+          $desc = get_sub_field('desc');
+          $town = get_sub_field('town');
 
-        //variables
-        $image = get_sub_field('image');
-        $link = get_sub_field('link');
-        $desc = get_sub_field('desc');
-        $town = get_sub_field('town');
+        ?>
 
-      ?>
+          <li style="background-image: url('<?php echo $image['sizes']['wide-image']; ?>');"">
 
-        <li>
+           
 
-          <img src="<?php echo $image['sizes']['wide-image']; ?>" width="<?php echo $image['sizes']['wide-image']; ?>" height="<?php echo $image['sizes']['wide-image']; ?>" alt="<?php echo $image['caption']; ?>" />
+            <div class="overlay"></div>
 
-          <div class="overlay"></div>
+            <div class="slidepost">
 
-          <div class="slidepost">
+              <div class="slideheadline"><?php echo $town; ?></div>
 
-            <div class="slideheadline"><?php echo $town; ?></div>
+              <h1><a href="<?php echo $link; ?>"><?php the_sub_field('linktext'); ?></a></h1>
 
-            <h1><a href="<?php echo $link; ?>"><?php the_sub_field('linktext'); ?></a></h1>
+              <div class="slidedesc"><?php echo $desc; ?></div>
 
-            <div class="slidedesc"><?php echo $desc; ?></div>
+              <div class="cta">
 
-            <div class="cta">
+                <a href="<?php echo $link; ?>">see more</a>
 
-              <a href="<?php echo $link; ?>">see more</a>
+              </div>
 
             </div>
 
-          </div>
+          </li>
 
-        </li>
+        <?php endwhile; ?>
 
-      <?php endwhile; ?>
-
-    </ul>
+      </ul>
+    </div><!--home-slider --> 
   <?php endif; ?>
   <?php endwhile; ?>
   <?php endif; ?>

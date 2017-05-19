@@ -1,0 +1,645 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"bac",
+				"background-image"
+			],
+			[
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"ba",
+				"background-image"
+			],
+			[
+				"c",
+				"cover"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"te",
+				"text-transform"
+			],
+			[
+				"margi",
+				"margin-bottom"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"re",
+				"review-box"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"li",
+				"list-style"
+			],
+			[
+				"W",
+				"wrapper"
+			],
+			[
+				"m",
+				"margin-bottom"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"blo",
+				"block-kalendar"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"ne",
+				"next-right"
+			],
+			[
+				"back",
+				"background-size"
+			],
+			[
+				"up",
+				"upit-blok"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"margn",
+				"margin-top"
+			],
+			[
+				"min-",
+				"min-height"
+			],
+			[
+				"in",
+				"inherit"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"fo",
+				"FontAwesome"
+			],
+			[
+				"bor",
+				"border-color"
+			],
+			[
+				"border-bot",
+				"border-bottom"
+			],
+			[
+				"sub",
+				"submitdon"
+			],
+			[
+				"tes",
+				"text-transform"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"foc",
+				"flood-color"
+			],
+			[
+				"end",
+				"endif"
+			],
+			[
+				"fa",
+				"false"
+			],
+			[
+				"tra",
+				"transparent"
+			],
+			[
+				"d",
+				"disc"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"p",
+				"padding"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"a",
+				"auto"
+			],
+			[
+				"oo",
+				"overflow"
+			],
+			[
+				"img",
+				"img\tTag"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"about",
+				"about-exibitor"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"product-",
+				"product-wrap"
+			],
+			[
+				"list-s",
+				"list-style"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 160.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+	],
+	"file_history":
+	[
+		"/C/DOKUMENTA/Administracija sajtova/Petros/GIT/petros/page-home.php",
+		"/C/DOKUMENTA/Administracija sajtova/FDES/RADNO/MAJ 14 2017/index.php",
+		"/C/DOKUMENTA/Administracija sajtova/FDES/RADNO/APRIL 23 2017/fdes/index.php",
+		"/C/DOKUMENTA/Administracija sajtova/FDES/RADNO/APRIL 23 2017/fdes/header.php",
+		"/C/DOKUMENTA/Administracija sajtova/EKOF-CID/RADNO/MAJ 10 2017/ekof-cid/functions.php",
+		"/C/DOKUMENTA/Administracija sajtova/EKOF-CID/RADNO/MAJ 12 2017/functions.php",
+		"/C/DOKUMENTA/Administracija sajtova/European Western Balkans/RADNO/MAJ 11 2017/loop-single-1.php",
+		"/C/DOKUMENTA/Administracija sajtova/European Western Balkans/RADNO/MAJ 11 2017/loop-single-2.php",
+		"/C/DOKUMENTA/Administracija sajtova/European Western Balkans/RADNO/MAJ 11 2017/loop-single-3.php",
+		"/C/DOKUMENTA/Administracija sajtova/European Western Balkans/RADNO/MAJ 11 2017/loop-single-4.php",
+		"/C/DOKUMENTA/Administracija sajtova/European Western Balkans/RADNO/MAJ 11 2017/loop-single-5.php",
+		"/C/DOKUMENTA/Administracija sajtova/European Western Balkans/RADNO/MAJ 11 2017/loop-single.php",
+		"/C/DOKUMENTA/Administracija sajtova/European Western Balkans/RADNO/MAJ 11 2017/loop-single-7.php",
+		"/C/DOKUMENTA/Administracija sajtova/European Western Balkans/RADNO/MAJ 11 2017/loop-single-6.php",
+		"/C/DOKUMENTA/Administracija sajtova/European Western Balkans/RADNO/MAJ 11 2017/loop-single-8.php",
+		"/C/DOKUMENTA/Administracija sajtova/MWEB.rs/RADNO/footer.php",
+		"/C/DOKUMENTA/Administracija sajtova/European Western Balkans/RADNO/MAJ 11 2017/wp-config.php",
+		"/C/DOKUMENTA/Administracija sajtova/European Western Balkans/RADNO/MAJ 11 2017/style.css",
+		"/C/DOKUMENTA/Administracija sajtova/EKOF-CID/RADNO/MAJ 10 2017/footer.php",
+		"/C/DOKUMENTA/Administracija sajtova/Bajsologija/RADNO/MAJ 09 2015/footer-samo-ne-autom.php",
+		"/C/DOKUMENTA/Administracija sajtova/Bajsologija/RADNO/MAJ 09 2015/page-samo-ne-autom.php",
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/page-nastavnicki-servis.php",
+		"/C/Users/jamar/Desktop/index.xml",
+		"/C/Users/jamar/Desktop/milosblo_sfb.sql/milosblo_sfb.sql",
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/page-studentski-servisi.php",
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/page.php",
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/header-red.php",
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/header-orange.php",
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/header-green.php",
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/header-blue.php",
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/header.php",
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/style.css",
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/category.php",
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/sidebar.php",
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/page-pocetna.php",
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/page-nauka-landing.php",
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/page-nauka-podstane.php",
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/languages/wp-config.php",
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/page-studenti-landing.php",
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/page-osoblje-lista.php",
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/plugin-scripts.js",
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/category-3.php",
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/search.php",
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/page-knjiga.php",
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/functions.php",
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/page-landing-ei.php",
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/page-landing-pejzaz.php",
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/page-landing-su.php",
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/page-landing-tmp.php",
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/category-24.php",
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/page-profesor.php",
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/page-studenti-program.php",
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/page-studijski-programi-template.php",
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/page-uvid-javnosti.php",
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/page-uvid-u-zvanja.php",
+		"/C/DOKUMENTA/Administracija sajtova/SvetosavskoZvonce/RADNO/MAJ 03 2017/gridfocus/header.php",
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/category-16.php",
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/page-osoblje-lista-strucni-saradnici.php",
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/category-17.php",
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/category-18.php",
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/category-19.php",
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/category-20.php",
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/category-21.php",
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/category-22.php",
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/page-osoblje-lista-saradnici - Copy.php",
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/category-30.php",
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/template_parts/news-students-icons.php",
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/template_parts/news-faculty-icons.php",
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/index.xml",
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/template_parts/breadcrumbs-template.php",
+		"/C/Users/jamar/Desktop/Iskoriscavanje suma/4. Нове фотографије особља.rar",
+		"/C/DOKUMENTA/Administracija sajtova/Pasinelliecassai/RADNO/MAJ 01 2017/search.php",
+		"/C/DOKUMENTA/Administracija sajtova/Pasinelliecassai/RADNO/MAJ 01 2017/theme_support_gardencare/includes/helpers/ajax.php",
+		"/C/DOKUMENTA/Administracija sajtova/Pasinelliecassai/RADNO/MAJ 01 2017/style.css",
+		"/C/DOKUMENTA/Administracija sajtova/Pasinelliecassai/RADNO/MAJ 01 2017/header.php",
+		"/C/Users/jamar/Desktop/Radno/html5blank-stable/html5blank-stable/search.php",
+		"/C/DOKUMENTA/Administracija sajtova/Pasinelliecassai/RADNO/MAJ 01 2017/functions.php",
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/index.php",
+		"/C/DOKUMENTA/Administracija sajtova/Pasinelliecassai/RADNO/APRIL 27 2017/style.css",
+		"/C/DOKUMENTA/Administracija sajtova/Bajsologija/RADNO/APRIL 11 2017/page-opc.php",
+		"/C/DOKUMENTA/Administracija sajtova/Bajsologija/RADNO/APRIL 11 2017/functions.php",
+		"/C/DOKUMENTA/Administracija sajtova/Bajsologija/RADNO/APRIL 11 2017/header-opc.php",
+		"/C/DOKUMENTA/Administracija sajtova/Bajsologija/RADNO/APRIL 11 2017/loop-naslovna-upgrade.php",
+		"/C/DOKUMENTA/Administracija sajtova/Bajsologija/RADNO/APRIL 11 2017/category.php",
+		"/C/DOKUMENTA/Administracija sajtova/Bajsologija/RADNO/APRIL 11 2017/loop-proizvodjaci-premium.php",
+		"/C/DOKUMENTA/Administracija sajtova/Bajsologija/RADNO/APRIL 11 2017/index.php",
+		"/C/DOKUMENTA/Administracija sajtova/VisitPavilion/APRIL 10 2017/style.css",
+		"/C/DOKUMENTA/Administracija sajtova/Bajsologija/RADNO/APRIL 11 2017/header.php",
+		"/C/DOKUMENTA/Administracija sajtova/Bajsologija/RADNO/APRIL 11 2017/wp-config.php",
+		"/C/DOKUMENTA/Administracija sajtova/Bajsologija/BACKUP/APRIL 10 2017/header-samo-ne-autom.php",
+		"/C/DOKUMENTA/Administracija sajtova/Bajsologija/BACKUP/APRIL 10 2017/functions.php",
+		"/C/DOKUMENTA/Administracija sajtova/Petros/GIT/petros/style.css",
+		"/C/DOKUMENTA/Administracija sajtova/Petros/GIT/petros/template_parts/tp-categories_home.php",
+		"/C/DOKUMENTA/Administracija sajtova/Bajsologija/RADNO/APRIL 09 2017/index.php",
+		"/C/DOKUMENTA/Administracija sajtova/Bajsologija/RADNO/APRIL 09 2017/single-prodavnice.php",
+		"/C/DOKUMENTA/Administracija sajtova/Bajsologija/RADNO/APRIL 09 2017/category.php",
+		"/C/DOKUMENTA/Administracija sajtova/Bajsologija/RADNO/APRIL 09 2017/loop-naslovna-prvi-red.php",
+		"/C/DOKUMENTA/Administracija sajtova/Bajsologija/RADNO/APRIL 09 2017/loop-naslovna.php",
+		"/C/DOKUMENTA/Administracija sajtova/Bajsologija/RADNO/APRIL 09 2017/loop-slider.php",
+		"/C/DOKUMENTA/Administracija sajtova/Bajsologija/RADNO/APRIL 09 2017/index-izmena.php",
+		"/C/DOKUMENTA/Administracija sajtova/Bajsologija/RADNO/APRIL 09 2017/loop-slider-upgrade.php",
+		"/C/DOKUMENTA/Administracija sajtova/Bajsologija/RADNO/APRIL 09 2017/loop-naslovna-upgrade.php",
+		"/C/DOKUMENTA/Administracija sajtova/Bajsologija/RADNO/APRIL 09 2017/header.php",
+		"/C/DOKUMENTA/Administracija sajtova/Bajsologija/RADNO/APRIL 09 2017/functions.php",
+		"/C/DOKUMENTA/Administracija sajtova/Bajsologija/RADNO/APRIL 09 2017/loop-naslovna – kopija.php",
+		"/C/DOKUMENTA/Administracija sajtova/European Western Balkans/RADNO/APRIL 09 2017/header-style-1.php",
+		"/C/DOKUMENTA/Administracija sajtova/European Western Balkans/RADNO/APRIL 08 2017/style.css",
+		"/C/DOKUMENTA/Administracija sajtova/European Western Balkans/RADNO/APRIL 09 2017/loop-single.php",
+		"/C/DOKUMENTA/Administracija sajtova/European Western Balkans/RADNO/APRIL 08 2017/header-style-1.php",
+		"/C/DOKUMENTA/Administracija sajtova/European Western Balkans/RADNO/APRIL 09 2017/td_smart_list_1.php",
+		"/C/DOKUMENTA/Administracija sajtova/HTR.rs/RADNO/APRIL 08 2017/collaborate-with.php",
+		"/C/DOKUMENTA/Administracija sajtova/European Western Balkans/RADNO/APRIL 08 2017/header.php",
+		"/C/DOKUMENTA/Administracija sajtova/HTR.rs/RADNO/APRIL 08 2017/page-work-wits-us.php",
+		"/C/DOKUMENTA/Administracija sajtova/HTR.rs/RADNO/APRIL 08 2017/page-contact.php",
+		"/C/DOKUMENTA/Administracija sajtova/HTR.rs/RADNO/APRIL 08 2017/page-about.php",
+		"/C/DOKUMENTA/Administracija sajtova/HTR.rs/RADNO/APRIL 08 2017/page-home.php",
+		"/C/DOKUMENTA/Administracija sajtova/HTR.rs/RADNO/APRIL 08 2017/style.css",
+		"/C/DOKUMENTA/Administracija sajtova/HTR.rs/RADNO/APRIL 08 2017/page-services.php",
+		"/C/DOKUMENTA/Administracija sajtova/HTR.rs/RADNO/APRIL 08 2017/page-industry.php",
+		"/C/DOKUMENTA/Administracija sajtova/HTR.rs/RADNO/APRIL 08 2017/page-casting.php",
+		"/C/DOKUMENTA/Administracija sajtova/HTR.rs/RADNO/APRIL 08 2017/page-refractory.php",
+		"/C/DOKUMENTA/Administracija sajtova/HTR.rs/RADNO/APRIL 08 2017/page-industries.php",
+		"/C/DOKUMENTA/Administracija sajtova/SvetosavskoZvonce/RADNO/APRIL 08 2017/second.column.index2.php",
+		"/C/DOKUMENTA/Administracija sajtova/Bajsologija/RADNO/APRIL 08 2017/header.php",
+		"/C/DOKUMENTA/Administracija sajtova/EKOF-NICEF/RADNO/APRIL 7 2017/functions.php",
+		"/C/DOKUMENTA/Administracija sajtova/EKOF-NICEF/RADNO/APRIL 7 2017/page-oblast-kurseva.php",
+		"/C/DOKUMENTA/Administracija sajtova/EKOF-NICEF/RADNO/APRIL 7 2017/page-naslovna.php",
+		"/C/DOKUMENTA/Administracija sajtova/EKOF-NICEF/RADNO/header.php"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 102.0,
+		"where_history":
+		[
+			"D:\\Administacija sajtova\\SOS Decija Sela\\RADNO\\JANUAR 13 2017\\sos 3.0 donacije"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"test",
+			"test.mweb.rs",
+			"media",
+			"Категорије вести",
+			"no categories",
+			"катег",
+			"категорије",
+			"Категорије вести",
+			" \n",
+			">\t\t\t\t",
+			"svi-servisi",
+			"ctanews",
+			"searched",
+			"search",
+			"searched",
+			"Searched",
+			"you",
+			"title",
+			"text",
+			"img",
+			"create_post_type_html5",
+			"overla",
+			"robe",
+			"?>');\">",
+			"naslov",
+			"\t\t\t\t\n",
+			"70",
+			"100",
+			"Наручи",
+			"Стопама",
+			"70",
+			"Крф",
+			"cta-text",
+			"cta",
+			"test.mweb.rs",
+			"test.mweb.rs\\\\/ekof-nicef",
+			"test.mweb.rs",
+			"test.mweb.rs\\\\/ekof-nicef",
+			"test.mweb.rs",
+			"test.mweb.rs/ekof-nicef",
+			"test.mweb.rs/ekof",
+			"link",
+			">\t\t\t\t\t",
+			"досије",
+			"opc",
+			";\n",
+			"View Article",
+			";}",
+			"bottom",
+			"table-review",
+			"\n    ",
+			";\n",
+			"Mobile phone",
+			"Mobile",
+			"mobile phone",
+			"Mobile",
+			"tabela-obuka\nth",
+			"thead",
+			"th",
+			";\">",
+			"Today",
+			"switch",
+			"wp_localize_script",
+			"toda",
+			"kalenda",
+			"kalendar",
+			"%1$s for %2$s",
+			"$slug",
+			".line",
+			"url",
+			"hom",
+			"items",
+			"row",
+			"tribe-event-date-start",
+			"контакт",
+			"create_post_type",
+			";\n",
+			"nauke",
+			"Confirmed",
+			"sln_email",
+			"for=\"sln_email\"",
+			"Service",
+			"In case of delay we'll keep your",
+			"Important notes",
+			"\nImportant notes",
+			"In case of delay we'",
+			"In case of delay we'll keep",
+			"In case of delay we'll keep your \"seat\"",
+			"In case of delay we'll keep your \"seat\" for 15 minutes",
+			"table",
+			"Source Sans ",
+			"body",
+			"Title of your review:",
+			"comments_template",
+			"comments",
+			"widget_listing_comments",
+			"leaflet-control-zoom",
+			"respond",
+			"#respond",
+			"widget_listing_content",
+			"widget  widget_listing_content",
+			"widget_listing_content",
+			"listing_exibitors-2",
+			"false",
+			"id=\"job-manager-bookmarks\"",
+			"job-manager-bookmarks",
+			"data-label",
+			"side",
+			"register",
+			"register ",
+			"shortcode",
+			"\nadd_filter('widget_text','do_shortcode');",
+			"about",
+			"exibitor",
+			"formatMoney",
+			"moneyFormatted",
+			"36",
+			"pagina",
+			"cenovinik",
+			"add_theme_support",
+			"ul li",
+			"submit",
+			"http://test.mweb.rs",
+			"http://test.mweb.rs/sosdecijasela",
+			"key",
+			"$key",
+			"<?",
+			"Појединости о нашој банци"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"nicef.ekof.bg.ac.rs",
+			"Phone",
+			"http://www.sos-decijasela.rs",
+			"#4cbfd6",
+			"#1B7095"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 38.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": false,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 325.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -377,6 +377,20 @@ section h2 {
   margin: 0 0 80px 0;
 }
 
+section#whypetros {
+	padding-bottom: 0;
+}
+
+section#aboutus {
+	padding: 0 0 40px 0;
+}
+section.followus {
+	padding: 30px 0 70px 0;
+}
+
+
+
+
 /* End Sections */
 
 /* Section Categories */
@@ -800,6 +814,10 @@ footer a,p,span {
 	margin-right: 30px;
 }
 
+.subcatlist ul li:last-child {
+	margin-right: 0px;
+}
+
 .subcatlist ul li a {
 	font-size: 16px;
 	font-weight: 700;
@@ -1086,6 +1104,7 @@ button:focus {
 
 .singleblogpost {
 	margin-top: 40px;
+	margin-bottom: 40px;
 }
 
 .singleblogpost {
@@ -1106,6 +1125,32 @@ button:focus {
 	font-size: 16px;
 	line-height: 24px;
 	color: #212121;
+	margin-bottom: 15px;
+}
+
+
+.singleblogpost ul{
+	list-style: disc;
+	font-size: 16px;
+    line-height: 24px;
+    color: #212121;
+    padding-left: 40px;
+    margin-bottom: 15px;
+}
+
+.singleblogpost ol{
+	list-style-type: decimal;
+	font-size: 16px;
+    line-height: 24px;
+    color: #212121;
+    margin-left: 0;
+    margin-bottom: 15px;
+}
+
+.singleblogpost blockquote {
+	border-left: 3px solid #0158A5;
+    padding-left: 10px;
+    margin-left: 10px;
 }
 
 .singleauthor {

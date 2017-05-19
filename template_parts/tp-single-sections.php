@@ -8,6 +8,7 @@
           $information = get_field('useful_information');
           $itinerary = get_field('full_itinerary');
           $meeting = get_field('meeting_point');
+          $beforeprice = get_field('before_price_text');
 ?>
   <div class="sticky">
 
@@ -36,7 +37,7 @@
       </ul>
 
       <div class="pricebook">
-        <div class="catprice"><?php echo $price ?> - <?php echo $category ?></div>
+        <div class="catprice"><?php //echo $beforeprice; ?><?php echo $price; ?></div>
 
         <div class="ctabook">
 

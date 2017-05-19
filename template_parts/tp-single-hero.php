@@ -15,7 +15,7 @@ echo '<div class="cathero" style="background: url('. $url.'); background-size:co
       $above = get_field('above');
       $below = get_field('below');
       $price = get_field('price');
-      $category = get_field('category');
+      $beforeprice = get_field('before_price_text');
   ?>
 
 
@@ -48,7 +48,7 @@ echo '<div class="cathero" style="background: url('. $url.'); background-size:co
 
         </div>
 
-        <span><?php echo $price ?> - <?php echo $category ?></span>
+        <span><?php echo $beforeprice; ?><?php echo $price; ?></span>
 
       </div>
 

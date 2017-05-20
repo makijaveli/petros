@@ -12,7 +12,7 @@ get_header(); ?>
 
 <div class="wrapper">
 
-  <section class="catdesc">
+  <section class="catdesc main-cat">
       <?php echo category_description(); ?>
   </section>
 

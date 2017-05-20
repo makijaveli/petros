@@ -415,6 +415,7 @@ section.followus {
    -webkit-transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
    display: table-cell;
    position: relative;
+   background-size: cover!important;
 }
 
 .subcard {
@@ -842,6 +843,11 @@ footer a,p,span {
 	text-align: center;
 }
 
+.catdesc.main-cat {
+	padding: 70px 0 0 0;
+	text-align: center;
+}
+
 .catdesc h1 {
 	color: #0475d0;
 	margin-bottom: 40px;
@@ -861,14 +867,29 @@ footer a,p,span {
 	text-align: -webkit-center;
 }
 
+.category-5 .cards.cat, .category-6 .cards.cat {display: table!important;}
+
 section.catmain {
 	margin: 0 auto;
-	max-width: 900px;
+	/* max-width: 900px; */
+	max-width: 1200px;
 	padding-top: 0;
 }
 
 section.catmain h1 {
 	margin-top: 200px;
+}
+
+section.catmain #walking-tours h1 {
+	margin-top: 100px;
+}
+
+section.catmain #walking-tours h1 {
+	margin-top: 100px;
+}
+
+.category-7 .cards.cat h1 {
+	margin-top: 100px;
 }
 
 section.catmain h2 {
@@ -1651,8 +1672,13 @@ section#gallery .bx-wrapper .bx-pager.bx-default-pager a {
 
 .bookleft {
 	/*float: left;*/
-	margin-right: 30px;
+	/* margin-right: 30px; */
 	overflow: hidden;
+}
+
+.input-row .input-item {
+	float: left;
+	margin-right: 20px;
 }
 
 .bookleft h3 {
@@ -1733,7 +1759,7 @@ input[type="date"]::-webkit-inner-spin-button{
 .wpcf7-mail-sent-ok  {
 	border: none !important;
 	color: #212121;
-	font-size: 24px;
+	font-size: 14px !important;
 	display: inline-block;
 	position: absolute;
 	bottom: -5px;

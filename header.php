@@ -50,7 +50,7 @@
 
     		jQuery(document).ready(function(){
     		  jQuery('.slider').bxSlider({
-    		  	auto: false,
+    		  	auto: true,
     			nextText: '',
     			prevText: ''
       			});

@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"ma",
+				"margin-top"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"backg",
+				"background-size"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
 				"ba",
 				"background-position"
 			],
@@ -14,14 +30,6 @@
 			[
 				"in",
 				"initial"
-			],
-			[
-				"margin",
-				"margin-left"
-			],
-			[
-				"ma",
-				"margin-bottom"
 			],
 			[
 				"bac",
@@ -54,10 +62,6 @@
 			[
 				"font",
 				"font-size"
-			],
-			[
-				"pa",
-				"padding-top"
 			],
 			[
 				"re",
@@ -231,68 +235,16 @@
 			"file": "style.css",
 			"settings":
 			{
-				"buffer_size": 37799,
+				"buffer_size": 39320,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "page-home.php",
+			"file": "header.php",
 			"settings":
 			{
-				"buffer_size": 354,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "template_parts/tp-slider.php",
-			"settings":
-			{
-				"buffer_size": 1304,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "category.php",
-			"settings":
-			{
-				"buffer_size": 3008,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "template_parts/tp-categories_home.php",
-			"settings":
-			{
-				"buffer_size": 4439,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "category-4.php",
-			"settings":
-			{
-				"buffer_size": 1709,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "template_parts/tp-category-hero.php",
-			"settings":
-			{
-				"buffer_size": 811,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "template_parts/tp-single-hero.php",
-			"settings":
-			{
-				"buffer_size": 1536,
+				"buffer_size": 6274,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -335,17 +287,29 @@
 	],
 	"file_history":
 	[
+		"/C/DOKUMENTA/Administracija sajtova/EKOF-CID/RADNO/MAJ 21 2017/email-styles.php",
 		"/C/DOKUMENTA/Administracija sajtova/Petros/GIT/petros/style.css",
-		"/C/DOKUMENTA/Administracija sajtova/Petros/GIT/petros/single-13.php",
+		"/C/DOKUMENTA/Administracija sajtova/Petros/GIT/petros/category.php",
+		"/C/DOKUMENTA/Administracija sajtova/Petros/GIT/petros/category-6.php",
+		"/C/DOKUMENTA/Administracija sajtova/Petros/GIT/petros/category-7.php",
+		"/C/DOKUMENTA/Administracija sajtova/Petros/GIT/petros/category-4.php",
+		"/C/DOKUMENTA/Administracija sajtova/Petros/GIT/petros/category-5.php",
+		"/C/DOKUMENTA/Administracija sajtova/Petros/GIT/petros/functions.php",
+		"/C/DOKUMENTA/Administracija sajtova/Petros/GIT/petros/category-13.php",
+		"/C/DOKUMENTA/Administracija sajtova/Petros/GIT/petros/page.php",
+		"/C/DOKUMENTA/Administracija sajtova/Petros/GIT/petros/template_parts/tp-followus.php",
+		"/C/DOKUMENTA/Administracija sajtova/Petros/GIT/petros/page-contact-us.php",
 		"/C/DOKUMENTA/Administracija sajtova/Petros/GIT/petros/template_parts/tp-single-sections.php",
-		"/C/DOKUMENTA/Administracija sajtova/Petros/GIT/petros/single.php",
 		"/C/DOKUMENTA/Administracija sajtova/Petros/GIT/petros/template_parts/tp-single-hero.php",
+		"/C/DOKUMENTA/Administracija sajtova/Petros/GIT/petros/single.php",
 		"/C/DOKUMENTA/Administracija sajtova/Petros/GIT/petros/template_parts/tp-category-hero.php",
+		"/C/DOKUMENTA/Administracija sajtova/Petros/GIT/petros/template_parts/tp-categories_home.php",
+		"/C/DOKUMENTA/Administracija sajtova/Petros/GIT/petros/template_parts/tp-slider.php",
+		"/C/DOKUMENTA/Administracija sajtova/Petros/GIT/petros/page-home.php",
+		"/C/DOKUMENTA/Administracija sajtova/Petros/GIT/petros/single-13.php",
 		"/C/DOKUMENTA/Administracija sajtova/Petros/GIT/petros/header.php",
 		"/C/DOKUMENTA/Administracija sajtova/Petros/GIT/petros/footer.php",
-		"/C/DOKUMENTA/Administracija sajtova/Petros/GIT/petros/functions.php",
 		"/C/DOKUMENTA/html5blank-stable/js/scripts.js",
-		"/C/DOKUMENTA/Administracija sajtova/Petros/GIT/petros/page-home.php",
 		"/C/DOKUMENTA/Administracija sajtova/FDES/RADNO/MAJ 14 2017/index.php",
 		"/C/DOKUMENTA/Administracija sajtova/FDES/RADNO/APRIL 23 2017/fdes/index.php",
 		"/C/DOKUMENTA/Administracija sajtova/FDES/RADNO/APRIL 23 2017/fdes/header.php",
@@ -436,7 +400,6 @@
 		"/C/DOKUMENTA/Administracija sajtova/Bajsologija/RADNO/APRIL 11 2017/wp-config.php",
 		"/C/DOKUMENTA/Administracija sajtova/Bajsologija/BACKUP/APRIL 10 2017/header-samo-ne-autom.php",
 		"/C/DOKUMENTA/Administracija sajtova/Bajsologija/BACKUP/APRIL 10 2017/functions.php",
-		"/C/DOKUMENTA/Administracija sajtova/Petros/GIT/petros/template_parts/tp-categories_home.php",
 		"/C/DOKUMENTA/Administracija sajtova/Bajsologija/RADNO/APRIL 09 2017/index.php",
 		"/C/DOKUMENTA/Administracija sajtova/Bajsologija/RADNO/APRIL 09 2017/single-prodavnice.php",
 		"/C/DOKUMENTA/Administracija sajtova/Bajsologija/RADNO/APRIL 09 2017/category.php",
@@ -451,18 +414,7 @@
 		"/C/DOKUMENTA/Administracija sajtova/Bajsologija/RADNO/APRIL 09 2017/loop-naslovna – kopija.php",
 		"/C/DOKUMENTA/Administracija sajtova/European Western Balkans/RADNO/APRIL 09 2017/header-style-1.php",
 		"/C/DOKUMENTA/Administracija sajtova/European Western Balkans/RADNO/APRIL 08 2017/style.css",
-		"/C/DOKUMENTA/Administracija sajtova/European Western Balkans/RADNO/APRIL 09 2017/loop-single.php",
-		"/C/DOKUMENTA/Administracija sajtova/European Western Balkans/RADNO/APRIL 08 2017/header-style-1.php",
-		"/C/DOKUMENTA/Administracija sajtova/European Western Balkans/RADNO/APRIL 09 2017/td_smart_list_1.php",
-		"/C/DOKUMENTA/Administracija sajtova/HTR.rs/RADNO/APRIL 08 2017/collaborate-with.php",
-		"/C/DOKUMENTA/Administracija sajtova/European Western Balkans/RADNO/APRIL 08 2017/header.php",
-		"/C/DOKUMENTA/Administracija sajtova/HTR.rs/RADNO/APRIL 08 2017/page-work-wits-us.php",
-		"/C/DOKUMENTA/Administracija sajtova/HTR.rs/RADNO/APRIL 08 2017/page-contact.php",
-		"/C/DOKUMENTA/Administracija sajtova/HTR.rs/RADNO/APRIL 08 2017/page-about.php",
-		"/C/DOKUMENTA/Administracija sajtova/HTR.rs/RADNO/APRIL 08 2017/page-home.php",
-		"/C/DOKUMENTA/Administracija sajtova/HTR.rs/RADNO/APRIL 08 2017/style.css",
-		"/C/DOKUMENTA/Administracija sajtova/HTR.rs/RADNO/APRIL 08 2017/page-services.php",
-		"/C/DOKUMENTA/Administracija sajtova/HTR.rs/RADNO/APRIL 08 2017/page-industry.php"
+		"/C/DOKUMENTA/Administracija sajtova/European Western Balkans/RADNO/APRIL 09 2017/loop-single.php"
 	],
 	"find":
 	{
@@ -481,6 +433,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"}\n",
+			"top",
+			"excerpt",
 			"slider",
 			"cathero",
 			"map",
@@ -605,10 +560,7 @@
 			"cenovinik",
 			"add_theme_support",
 			"ul li",
-			"submit",
-			"http://test.mweb.rs",
-			"http://test.mweb.rs/sosdecijasela",
-			"key"
+			"submit"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -631,7 +583,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -640,15 +592,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 37799,
+						"buffer_size": 39320,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3384,
-								3384
+								29527,
+								29527
 							]
 						],
 						"settings":
@@ -656,85 +608,27 @@
 							"syntax": "Packages/CSS/CSS.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 6686.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "page-home.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 354,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								6,
-								6
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "template_parts/tp-slider.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1304,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								285,
-								285
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 59323.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "category.php",
+					"buffer": 1,
+					"file": "header.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3008,
+						"buffer_size": 6274,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								2245,
+								2245
 							]
 						],
 						"settings":
@@ -744,130 +638,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 360.0,
+						"translation.y": 1620.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "template_parts/tp-categories_home.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4439,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3398,
-								3398
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 2610.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "category-4.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1709,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "template_parts/tp-category-hero.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 811,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								459,
-								521
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 180.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "template_parts/tp-single-hero.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1536,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								267,
-								267
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
 					"type": "text"
 				}
 			]

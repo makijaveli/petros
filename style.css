@@ -388,6 +388,21 @@ section.followus {
 	padding: 30px 0 70px 0;
 }
 
+section#description {
+	padding: 0 0 40px 0;
+}
+section#equipment {
+	padding: 0 0 40px 0;
+}
+
+section#location {
+	padding: 40px 0 40px 0;
+}
+
+section.inquiry{
+	padding-top: 40px;
+}
+
 
 
 
@@ -1970,18 +1985,19 @@ a.goback:hover {
 }
 
 .basicinfo {
-	width: 260px;
+	width: 320px;
 	margin: 0 auto 40px auto;
 }
 
 .basicinfo .basicleft {
 	float: left;
-	width: 150px;
+	width: 120px;
 	font-weight: 700;
 }
 
 #description p {
 	text-align: center;
+	margin-bottom: 15px;
 }
 
 .eqinfo {
@@ -2655,6 +2671,12 @@ img.reslogo {
 			margin-bottom: 20px;
 		}
 
+}
+
+
+@media only screen and (max-width:1006px) {
+	.wpgmza_map {width: 100%!important;}
+	.wpgmza_marker_list_class.wpgmza_basic_list {width: 100% !important;margin-left: 0px;margin-top: 20px;}
 }
 
 /* End Responsive */

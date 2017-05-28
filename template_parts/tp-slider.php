@@ -36,7 +36,7 @@
 
               <div class="cta">
 
-                <a href="<?php echo $link; ?>">see more</a>
+                <a href="<?php echo $link; ?>"><?php _e( 'More info', 'petros' ); ?></a>
 
               </div>
 

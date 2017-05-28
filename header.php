@@ -47,16 +47,29 @@
   		<script src="<?php bloginfo('template_directory'); ?>/js/jquery.easing.1.3.js"></script>
 
   		<script>
-
     		jQuery(document).ready(function(){
-    		  jQuery('.slider').bxSlider({
-    		  	auto: true,
-    			nextText: '',
-    			prevText: ''
-      			});
-    		});
+    		  
 
+          var slider = jQuery('.slider').bxSlider({
+            auto: true,
+            nextText: '',
+            prevText: ''
+          });
+
+          jQuery('.cta').mouseenter(function() {   
+             slider.stopAuto();      
+           }).mouseleave(function() {   
+               slider.startAuto();
+           });
+
+
+
+    		});
   		</script>
+
+      
+
+
 
       <script>
 
@@ -91,6 +104,7 @@
       });
       </script>
 
+      <?php /*
       <script>
       function loadMap() {
 
@@ -110,6 +124,7 @@
 
         google.maps.event.addDomListener(window, 'load', loadMap);
      </script>
+     */ ?>
 
       <?php wp_head(); ?>
 
@@ -143,9 +158,9 @@
 
              <ul>
                <li class="pipe"></li>
-               <li><a href="https://www.facebook.com/pages/Petros-Travel-Agency-putni%C4%8Dka-agencija/147790758658182"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-               <li><a href="https://www.instagram.com/explore/tags/hrvatska/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-               <li><a href="https://www.linkedin.com/company/petros-travel-agency?trk=company_name"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+               <li><a href="https://www.facebook.com/pages/Petros-Travel-Agency-putni%C4%8Dka-agencija/147790758658182" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+               <li><a href="https://www.instagram.com/petrosdmc/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+               <li><a href="https://www.linkedin.com/company/petros-travel-agency?trk=company_name" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
              </ul>
 
            </div>

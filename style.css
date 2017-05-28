@@ -404,6 +404,10 @@ section.inquiry{
 }
 
 
+section#aboutus a {
+	color: #1077CE;
+}
+
 
 
 /* End Sections */
@@ -478,6 +482,7 @@ section.inquiry{
 	line-height: 30px;
 	font-weight: 700;
 	text-align: left;
+	text-transform: uppercase;
 }
 
 .cardinfo {

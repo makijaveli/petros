@@ -42,7 +42,7 @@
 
         <div class="ctamp">
 
-          <a href="<?php the_permalink() ?>" title="<?php the_title(); ?>">see tour</a>
+          <a href="<?php the_permalink() ?>" title="<?php the_title(); ?>"><?php _e( 'More info', 'petros' ); ?></a>
 
         </div>
 

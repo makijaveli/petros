@@ -6,53 +6,78 @@
 
 <!-- section most popular -->
 
+<?php // Učitava se PAGE_ID strane: Pocetna i Home
+   $args = array('page_id' => 8);
+   $wp_query = new WP_Query($args);
+   if($wp_query->have_posts()) : while($wp_query->have_posts()) : $wp_query->the_post();
+?>
+
 <section class="most-popular">
 
   <div class="wrapper">
 
     <h1><?php _e( 'Most popular tours', 'petros' ); ?></h1>
 
-    <?php query_posts('cat=14&posts_per_page=6'); ?>
+    <?php if( have_rows('most_popular_tours') ): ?>
 
-    <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+      <?php while( have_rows('most_popular_tours') ): the_row();
 
-    <div class="most-popular-block">
+      //variables
+      $post_objects = get_sub_field('link');
 
-      <div class="most-popular-thumb">
+      if( $post_objects ): ?>
 
-        <?php
+      <?php // override $post
+      	$post = $post_objects;
+      	setup_postdata( $post );  ?>
+        <div class="most-popular-block">
 
-        if ( has_post_thumbnail() ) {
-        the_post_thumbnail( 'most-popular' );
-        }
+          <div class="most-popular-thumb">
 
-        ?>
+            <?php
 
-      </div>
+            if ( has_post_thumbnail() ) {
+            the_post_thumbnail( 'most-popular' );
+            }
 
-      <div class="overlaymp"></div>
+            ?>
 
-      <div class="mpprice"><?php the_field('price'); ?></div>
+          </div>
 
-      <div class="most-popular-info">
+          <div class="overlaymp"></div>
 
-        <div class="mpcat"><?php the_field('category'); ?></div>
+          <div class="mpprice"><?php the_field('price'); ?></div>
 
-        <h2><a href="<?php the_permalink() ?>" title="<?php the_title(); ?>"><?php the_title() ?></a></h2>
+          <div class="most-popular-info">
 
-        <div class="ctamp">
+            <div class="mpcat"><?php the_field('category'); ?></div>
 
-          <a href="<?php the_permalink() ?>" title="<?php the_title(); ?>"><?php _e( 'More info', 'petros' ); ?></a>
+            <h2><a href="<?php the_permalink() ?>" title="<?php the_title(); ?>"><?php the_title() ?></a></h2>
 
-        </div>
+            <div class="ctamp">
 
-      </div>
+              <a href="<?php the_permalink() ?>" title="<?php the_title(); ?>"><?php _e( 'More info', 'petros' ); ?></a>
 
-    </div><!-- most popular block -->
+            </div>
+
+          </div>
+
+        </div><!-- most popular block -->
+<?php wp_reset_postdata(); ?>
+<?php endif;
+
+    ?>
+    <?php
+      endwhile;
+      endif;
+      ?>
+
+
+
 
     <?php
 
-            endwhile;
+          endwhile;
 
             endif;
 

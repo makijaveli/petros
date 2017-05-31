@@ -95,6 +95,34 @@ function mweb_nav()
 	);
 }
 
+
+
+// Load HTML5 Blank scripts (header.php)
+function petros_header_scripts()
+{
+    if ($GLOBALS['pagenow'] != 'wp-login.php' && !is_admin()) {
+
+        wp_register_script('easytabs', get_template_directory_uri() . '/js/jquery.easytabs.js', array('jquery'), '1.0.0');
+        wp_enqueue_script('easytabs'); // Enqueue it!
+
+        wp_register_script('hashchange', get_template_directory_uri() . '/js/jquery.hashchange.min.js', array('jquery'), '1.0.0');
+        wp_enqueue_script('hashchange'); // Enqueue it!
+ 
+        wp_register_script('petrosscripts', get_template_directory_uri() . '/js/scripts.js', array('jquery'), '1.0.0');
+        wp_enqueue_script('petrosscripts'); // Enqueue it!
+    }
+}
+add_action('init', 'petros_header_scripts'); // Add Custom Scripts to wp_head
+
+
+
+
+
+
+
+
+
+
 // LOAD BX SLIDER
 function loadbxslider()
 {

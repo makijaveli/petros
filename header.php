@@ -46,6 +46,9 @@
 
   		<script src="<?php bloginfo('template_directory'); ?>/js/jquery.easing.1.3.js"></script>
 
+
+      
+
   		<script>
     		jQuery(document).ready(function(){
     		  
@@ -90,18 +93,7 @@
       <!-- smoth scroll to div -->
 
       <script>
-      $(function() {
-          $(document).on('click', 'a[href^="#"]', function () {
-              var target = $(this.hash);
-              target = target.length ? target : $('[name=' + this.hash.substr(1) +']');
-              if (target.length) {
-                  $('html,body').animate({
-                    scrollTop: target.offset().top -100
-                  }, 1000);
-                  return false;
-              }
-          });
-      });
+      
       </script>
 
       <?php /*

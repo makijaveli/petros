@@ -78,23 +78,56 @@ get_header(); ?>
     </div>
   </section> -->
 
-<section id="equipment">
-      <div class="wrappersingle">
-        <?php if(get_field('equipment')): ?>
-          <h2><?php _e( 'Equipment', 'petros' ); ?></h2>
-        <?php endif; ?>
-          <?php the_field('equipment'); ?>
-    </section>
-
-  <section id="location">
-      <?php if(get_field('location_map')): ?>
-          <h2><?php _e( 'Location', 'petros' ); ?></h2>
+  <section id="equipment">
+    <div class="wrappersingle">      
+        <h2><?php _e( 'Equipment', 'petros' ); ?></h2>
+        <div id="tab-container" class="tab-container">
+          <ul class='etabs'>
+            <li class='tab'><a href="#tabdescriprion"><?php _e( 'Descriprion', 'petros' ); ?></a></li>
+            <li class='tab'><a href="#tabequipment"><?php _e( 'Equipment', 'petros' ); ?></a></li>
+            
+          </ul>
+          <div id="tabdescriprion">
+            <?php the_field('description'); ?>
+          </div>
+          <div id="tabequipment">
+            <?php if(get_field('general')): ?>
+        <h2><?php _e( 'Equipment', 'petros' ); ?></h2>
       <?php endif; ?>
-
-      <div class="map-location">
-        <?php echo do_shortcode(get_field('location_map')); ?>
+      <div class="eqinfo">
+        <span><?php _e( 'General', 'petros' ); ?></span>
+        <?php the_field('general'); ?>
       </div>
-  </section>
+      <div class="eqinfo">
+        <span><?php _e( 'Bathroom', 'petros' ); ?></span>
+        <?php the_field('bathroom'); ?>
+      </div>
+      <div class="eqinfo">
+        <span><?php _e( 'Kitchen', 'petros' ); ?></span>
+        <?php the_field('kitchen'); ?>
+      </div>
+      <div class="eqinfo">
+        <span><?php _e( 'Outside', 'petros' ); ?></span>
+        <?php the_field('outside'); ?>
+      </div>
+      <div class="eqinfo">
+        <span><?php _e( 'On request', 'petros' ); ?></span>
+        <?php the_field('request'); ?>
+      </div>
+    </div>
+          </div>          
+        </div>
+  </section>  
+
+  <?php if(get_field('location_map')): ?>
+    <section id="location">        
+        <h2><?php _e( 'Location', 'petros' ); ?></h2>
+        <div class="map-location">
+          <?php echo do_shortcode(get_field('location_map')); ?>
+        </div>
+    </section>
+  <?php endif; //Close Location block ?>
+
 </section>
 
 <?php get_template_part('template_parts/tp-apartment-inquiry'); ?>

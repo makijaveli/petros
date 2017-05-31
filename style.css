@@ -489,7 +489,9 @@ section#aboutus a {
   position: absolute;
   bottom: 30px;
   padding-left: 30px;
+  padding-right: 30px;
   z-index: 999;
+  width: 100%;
 }
 
 .cardinfo ul {
@@ -511,6 +513,45 @@ section#aboutus a {
 	margin-left: 10px;
 	color: #fff;
 }
+
+.apartment-short-info {
+	width: 100%;
+	display: table;
+}
+
+.apartment-short-info .basicinfo {
+	width: 100%;
+	font-size: 14px;
+}
+
+.apartment-short-info .basicinfo .basic-row {
+	display: table;
+	width: 100%;
+}
+
+.apartment-short-info .basicinfo .basicleft {
+	float: left;
+	text-align: left;
+	width: 100px;
+}
+
+.apartment-short-info .basicinfo .basicright {
+	float: right;
+	text-align: right;
+}
+
+.apartment-short-info .fa {
+	width: 25px;
+}
+
+span.see-more {
+	float: left;
+}
+
+span.see-more .fa{
+	margin-left: 5px;
+}
+
 
 /* End Section Categories */
 

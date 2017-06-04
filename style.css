@@ -234,7 +234,7 @@ nav ul li ul.sub-menu li a::after {
     background-position: center;
     min-height: 700px;
     position: relative;
-}    
+}
 
 /* Slider */
 
@@ -569,11 +569,11 @@ span.see-more .fa{
 
 
 .etabs { margin: 0; padding: 0; list-style: none;}
-.etabs li::before {content: ' '!important;display: none;} 
+.etabs li::before {content: ' '!important;display: none;}
 .tab { display: inline-block; zoom:1; *display:inline; background: #eee; }
 .tab a { font-size: 14px; line-height: 2em; display: block; padding: 0 10px; outline: none; }
 .tab a:hover { text-decoration: underline; }
-.tab.active { background: #fff; position: relative; top: 1px; }
+.tab.active { background: #fff; padding-top: 6px; position: relative; top: 1px; }
 .tab a.active { font-weight: bold; }
 .tab-container .panel-container { background: #fff; border: solid #666 1px; padding: 10px; -moz-border-radius: 0 4px 4px 4px; -webkit-border-radius: 0 4px 4px 4px; }
 
@@ -2299,6 +2299,9 @@ img.reslogo {
       background-size: 105px 30px;
       background-repeat: no-repeat;
       background-position: 20px 10px;
+			position: fixed;
+			width: 100%;
+			z-index: 99999;
     }
 
 		.slicknav_nav ul {
@@ -2368,11 +2371,11 @@ img.reslogo {
 		}
 
 		img.reslogo {
-			position: absolute;
+			position: fixed;
 			top: 10px;
 			left: 10px;
 			display: block;
-			z-index: 999;
+			z-index: 999999;
 		}
 
 		header {

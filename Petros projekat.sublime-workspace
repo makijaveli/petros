@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"margin",
+				"margin-left"
+			],
+			[
 				"mar",
 				"margin-left"
 			],
@@ -18,10 +22,6 @@
 			[
 				"ma",
 				"margin-top"
-			],
-			[
-				"margin",
-				"margin-right"
 			],
 			[
 				"backg",
@@ -231,6 +231,24 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/single.php",
+			"settings":
+			{
+				"buffer_size": 2248,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/style.css",
+			"settings":
+			{
+				"buffer_size": 41367,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -269,15 +287,27 @@
 	],
 	"file_history":
 	[
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/style.css",
+		"/C/DOKUMENTA/Administracija sajtova/Petros/GIT/petros/single.php",
+		"/C/DOKUMENTA/Administracija sajtova/Petros/GIT/petros/page-brochures.php",
+		"/C/DOKUMENTA/Administracija sajtova/Petros/GIT/petros/page-about-us.php",
+		"/C/DOKUMENTA/Administracija sajtova/Petros/GIT/petros/page - Copy.php",
+		"/C/DOKUMENTA/Administracija sajtova/MWEB.rs/RADNO/html5blank-stable/js/scripts.js",
+		"/C/Users/jamar/Desktop/Radno/html5blank-stable/html5blank-stable/functions.php",
+		"/C/DOKUMENTA/Administracija sajtova/VisitPavilion/RADNO/JUN 02 2017/footer.php",
+		"/C/DOKUMENTA/Administracija sajtova/VisitPavilion/RADNO/JUN 02 2017/front_page.php",
+		"/C/DOKUMENTA/Administracija sajtova/VisitPavilion/RADNO/JUN 02 2017/functions.php",
+		"/C/DOKUMENTA/Administracija sajtova/VisitPavilion/RADNO/JUN 02 2017/style.css",
+		"/C/DOKUMENTA/Administracija sajtova/VisitPavilion/RADNO/MAJ 31 2017/listable-child-master/job_manager/content-no-jobs-found.php",
+		"/C/DOKUMENTA/Administracija sajtova/VisitPavilion/RADNO/MAJ 31 2017/style.css",
+		"/C/DOKUMENTA/Administracija sajtova/VisitPavilion/RADNO/MAJ 31 2017/front_page.php",
 		"/C/DOKUMENTA/Administracija sajtova/Petros/GIT/petros/style.css",
 		"/C/DOKUMENTA/Administracija sajtova/Petros/GIT/petros/single-7.php",
 		"/C/DOKUMENTA/Administracija sajtova/Petros/GIT/petros/template_parts/tp-apartment-hero.php",
-		"/C/DOKUMENTA/Administracija sajtova/Petros/GIT/petros/single.php",
 		"/C/DOKUMENTA/Administracija sajtova/Petros/GIT/petros/header.php",
 		"/C/DOKUMENTA/Administracija sajtova/Petros/GIT/petros/category-7.php",
 		"/C/DOKUMENTA/Administracija sajtova/Petros/GIT/petros/js/scripts.js",
 		"/C/Users/jamar/Desktop/jspkg-archive/examples/demo.html",
-		"/C/Users/jamar/Desktop/Radno/html5blank-stable/html5blank-stable/functions.php",
 		"/C/DOKUMENTA/Administracija sajtova/Petros/GIT/petros/functions.php",
 		"/C/DOKUMENTA/Administracija sajtova/Petros/GIT/petros/category.php",
 		"/C/DOKUMENTA/Administracija sajtova/Petros/GIT/petros/category-5.php",
@@ -358,7 +388,6 @@
 		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/header-green.php",
 		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/header-blue.php",
 		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/header.php",
-		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/style.css",
 		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/category.php",
 		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/sidebar.php",
 		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/page-pocetna.php",
@@ -385,22 +414,11 @@
 		"/C/DOKUMENTA/Administracija sajtova/SvetosavskoZvonce/RADNO/MAJ 03 2017/gridfocus/header.php",
 		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/category-16.php",
 		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/page-osoblje-lista-strucni-saradnici.php",
-		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/category-17.php",
-		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/category-18.php",
-		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/category-19.php",
-		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/category-20.php",
-		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/category-21.php",
-		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/category-22.php",
-		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/page-osoblje-lista-saradnici - Copy.php",
-		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/category-30.php",
-		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/template_parts/news-students-icons.php",
-		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/template_parts/news-faculty-icons.php",
-		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/index.xml",
-		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/template_parts/breadcrumbs-template.php"
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/category-17.php"
 	],
 	"find":
 	{
-		"height": 38.0
+		"height": 54.0
 	},
 	"find_in_files":
 	{
@@ -415,6 +433,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"html5blank_header_scripts",
+			"html5blank_conditional_scripts",
 			"details",
 			">\n",
 			"html5blank_header_scripts",
@@ -540,9 +560,7 @@
 			"about",
 			"exibitor",
 			"formatMoney",
-			"moneyFormatted",
-			"36",
-			"pagina"
+			"moneyFormatted"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -565,8 +583,67 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/single.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2248,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2107,
+								2107
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1716.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 41367,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								41305,
+								41305
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": -0.0,
+						"translation.y": 62524.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -647,7 +724,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 438.0,
+	"side_bar_width": 335.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

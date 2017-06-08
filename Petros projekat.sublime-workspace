@@ -232,19 +232,63 @@
 	"buffers":
 	[
 		{
-			"file": "/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/single.php",
+			"file": "page-brochure-tmp.php",
 			"settings":
 			{
-				"buffer_size": 2248,
+				"buffer_size": 929,
 				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "style.css",
+			"settings":
+			{
+				"buffer_size": 41057,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/jamar/Desktop/Alkemist.html",
+			"settings":
+			{
+				"buffer_size": 31634,
+				"encoding": "Western (Windows 1252)",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/style.css",
+			"file": "/C/Users/jamar/Desktop/Radno/html5blank-stable/html5blank-stable/loop.php",
 			"settings":
 			{
-				"buffer_size": 41367,
+				"buffer_size": 1416,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "template_parts/tp-page-hero.php",
+			"settings":
+			{
+				"buffer_size": 719,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "template_parts/tp-single-hero.php",
+			"settings":
+			{
+				"buffer_size": 1550,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "functions.php",
+			"settings":
+			{
+				"buffer_size": 12816,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -283,13 +327,19 @@
 	"expanded_folders":
 	[
 		"/C/DOKUMENTA/Administracija sajtova/Petros/GIT/petros",
-		"/C/DOKUMENTA/Administracija sajtova/Petros/GIT/petros/js"
+		"/C/DOKUMENTA/Administracija sajtova/Petros/GIT/petros/js",
+		"/C/DOKUMENTA/Administracija sajtova/Petros/GIT/petros/template_parts"
 	],
 	"file_history":
 	[
-		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/style.css",
-		"/C/DOKUMENTA/Administracija sajtova/Petros/GIT/petros/single.php",
+		"/C/Users/jamar/Desktop/Radno/html5blank-stable/html5blank-stable/loop.php",
 		"/C/DOKUMENTA/Administracija sajtova/Petros/GIT/petros/page-brochures.php",
+		"/C/DOKUMENTA/Administracija sajtova/Petros/GIT/petros/page-brochures_tmp.php",
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/single.php",
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/style.css",
+		"/C/DOKUMENTA/Administracija sajtova/SOS decija sela/RADNO/JUN 07 2017/page-home.php",
+		"/C/DOKUMENTA/Administracija sajtova/SOS decija sela/RADNO/JUN 07 2017/category-9.php",
+		"/C/DOKUMENTA/Administracija sajtova/Petros/GIT/petros/single.php",
 		"/C/DOKUMENTA/Administracija sajtova/Petros/GIT/petros/page-about-us.php",
 		"/C/DOKUMENTA/Administracija sajtova/Petros/GIT/petros/page - Copy.php",
 		"/C/DOKUMENTA/Administracija sajtova/MWEB.rs/RADNO/html5blank-stable/js/scripts.js",
@@ -409,16 +459,11 @@
 		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/page-profesor.php",
 		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/page-studenti-program.php",
 		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/page-studijski-programi-template.php",
-		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/page-uvid-javnosti.php",
-		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/page-uvid-u-zvanja.php",
-		"/C/DOKUMENTA/Administracija sajtova/SvetosavskoZvonce/RADNO/MAJ 03 2017/gridfocus/header.php",
-		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/category-16.php",
-		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/page-osoblje-lista-strucni-saradnici.php",
-		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/category-17.php"
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/page-uvid-javnosti.php"
 	],
 	"find":
 	{
-		"height": 54.0
+		"height": 36.0
 	},
 	"find_in_files":
 	{
@@ -433,6 +478,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"cenanastran",
+			"size",
 			"html5blank_header_scripts",
 			"html5blank_conditional_scripts",
 			"details",
@@ -558,9 +605,7 @@
 			"shortcode",
 			"\nadd_filter('widget_text','do_shortcode');",
 			"about",
-			"exibitor",
-			"formatMoney",
-			"moneyFormatted"
+			"exibitor"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -583,24 +628,108 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/single.php",
+					"file": "page-brochure-tmp.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2248,
+						"buffer_size": 929,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2107,
-								2107
+								460,
+								472
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 41057,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8537,
+								8537
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 11087.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Users/jamar/Desktop/Alkemist.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 31634,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								29795,
+								29806
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 14797.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Users/jamar/Desktop/Radno/html5blank-stable/html5blank-stable/loop.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1416,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								537,
+								558
 							]
 						],
 						"settings":
@@ -609,39 +738,100 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1716.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/style.css",
+					"buffer": 4,
+					"file": "template_parts/tp-page-hero.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 41367,
+						"buffer_size": 719,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								41305,
-								41305
+								493,
+								493
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
-						"translation.x": -0.0,
-						"translation.y": 62524.0,
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "template_parts/tp-single-hero.php",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1550,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "functions.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12816,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1234,
+								1242
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 240.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
 					"type": "text"
 				}
 			]
@@ -649,7 +839,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 38.0
+		"height": 28.0
 	},
 	"input":
 	{
@@ -686,7 +876,7 @@
 	"project": "Petros projekat.sublime-project",
 	"replace":
 	{
-		"height": 66.0
+		"height": 52.0
 	},
 	"save_all_on_build": false,
 	"select_file":

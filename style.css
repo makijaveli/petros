@@ -492,6 +492,7 @@ section#aboutus a {
   padding-right: 30px;
   z-index: 999;
   width: 100%;
+  text-align: left;
 }
 
 .cardinfo ul {
@@ -567,15 +568,16 @@ span.see-more .fa{
 
 /* Tabs */
 
-
-.etabs { margin: 0; padding: 0; list-style: none;}
-.etabs li::before {content: ' '!important;display: none;}
+.etabs { margin: 0; padding: 0; list-style: none; margin-bottom: 20px;}
+.etabs li::before {content: ' '!important;display: none; }
 .tab { display: inline-block; zoom:1; *display:inline; background: #eee; }
 .tab a { font-size: 14px; line-height: 2em; display: block; padding: 0 10px; outline: none; }
-.tab a:hover { text-decoration: underline; }
+.tab a:hover { text-decoration: none; }
 .tab.active { background: #fff; padding-top: 6px; position: relative; top: 1px; }
 .tab a.active { font-weight: bold; }
 .tab-container .panel-container { background: #fff; border: solid #666 1px; padding: 10px; -moz-border-radius: 0 4px 4px 4px; -webkit-border-radius: 0 4px 4px 4px; }
+
+
 
 
 /* End Section Categories */
@@ -2107,7 +2109,22 @@ a.goback:hover {
 
 
 
+/* Brochure */
 
+.brochures-item {
+	display: table;
+	width: 25%;
+}
+
+.brochures-item .brochure-img {
+	margin: 0 auto;
+	display: table;
+}
+
+.brochures-item a.link-title {
+	color: #1077CE; 
+	font-size:22px;
+}
 
 
 

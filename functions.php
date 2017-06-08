@@ -36,6 +36,7 @@ add_image_size('blog-single', 1440, 468, true); // Category blog size
 add_image_size('galery', 400, 200, true); // Category blog size
 add_image_size('mp-size', 120, 60, true); // Custom Thumbnail Size call using the_post_thumbnail('custom-size');
 add_image_size('wide-image', 9999, 700, false );
+add_image_size('brochure', 150, 318, true ); // Brochures cover size
 }
 
 add_action( 'after_setup_theme', 'wpse_setup_theme' );

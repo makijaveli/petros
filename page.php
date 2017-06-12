@@ -6,13 +6,14 @@
 
 get_header(); ?>
 
-<?php get_template_part('template_parts/tp-contactus-hero'); ?>
+<?php get_template_part('template_parts/tp-page-hero'); ?>
 
 <section class="page">
 
   <div class="wrapperus">
-
-    <?php the_content(); ?>
+	  <div class="page-content">
+	    <?php the_content(); ?>
+	  </div>  
 
   </div>
 

@@ -87,6 +87,6 @@ get_header(); ?>
 
 </div>
 
-<?php get_template_part('template_parts/tp-category-inquiry'); ?>
+<?php // get_template_part('template_parts/tp-category-inquiry'); ?>
 
 <?php get_footer(); ?>

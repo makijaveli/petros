@@ -450,4 +450,18 @@ return $datalist;
 }
 
 
+// Add specific CSS class by filter
+add_filter('body_class','my_class_names');
+function my_class_names($classes) {
+    // add 'class-name' to the $classes array
+if(ICL_LANGUAGE_CODE == 'en'){
+    $classes[] = 'class-en';
+}elseif(ICL_LANGUAGE_CODE == 'hr'){
+        $classes[] = 'class-hr';
+}
+    // return the $classes array
+    return $classes;
+}
+
+
 ?>

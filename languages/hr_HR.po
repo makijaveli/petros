@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: WordPress - Development\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-05-04 20:26+0000\n"
-"PO-Revision-Date: 2017-05-04 22:46+0000\n"
+"PO-Revision-Date: 2017-06-09 07:29+0000\n"
 "Last-Translator: \n"
 "Language-Team: English (USA)\n"
 "Language: en-US\n"
@@ -41,8 +41,12 @@ msgid "Inquiry"
 msgstr "Rezervacija"
 
 #: petros
-msgid "If you’d like to send us an inquiry regarding tours, you can do so on using the button bellow."
-msgstr "Ukoliko želite da nam pošaljete zahtev za turu, možete to učiniti na dugme ispod."
+msgid ""
+"If you’d like to send us an inquiry regarding tours, you can do so on using "
+"the button bellow."
+msgstr ""
+"Ukoliko želite da nam pošaljete zahtev za turu, možete to učiniti na dugme "
+"ispod."
 
 #: petros
 msgid "send inquiry"
@@ -88,13 +92,14 @@ msgstr "Putanja"
 msgid "Meeting points"
 msgstr "Mesta za sastanke"
 
-
 #: petros
 msgid "Subscribe to our newsletter"
 msgstr "Pretplati se na naš newsletter"
 
 #: petros
-msgid "Subscribe to our newsletter and get all the news and offers as soon as they are ready to meet the public eye."
+msgid ""
+"Subscribe to our newsletter and get all the news and offers as soon as they "
+"are ready to meet the public eye."
 msgstr "Pretplati se na naš newsletter i redovno dobijaj sve vesti i ponude."
 
 #: petros
@@ -146,7 +151,9 @@ msgid "Contact Form"
 msgstr "Kontakt forma"
 
 #: petros
-msgid "Feel free to get in touch with us using the contact form below. All fileds required."
+msgid ""
+"Feel free to get in touch with us using the contact form below. All fileds "
+"required."
 msgstr "Kontaktirajte nas putem forme ispod. Sva polja su obavezna."
 
 #: petros
@@ -168,3 +175,48 @@ msgstr "Informacije o turama i dnevnim izletima:"
 #: petros
 msgid "see map"
 msgstr "vidite mapu"
+
+msgid "Location"
+msgstr "Lokacija"
+
+msgid "Bedrooms"
+msgstr "Soba"
+
+msgid "Size"
+msgstr "Površina"
+
+msgid "Persons"
+msgstr "Broj osoba"
+
+msgid "Book now"
+msgstr "Rezerviši"
+
+msgid "Details"
+msgstr "Detalji"
+
+msgid "More info"
+msgstr "Više"
+
+msgid "book now"
+msgstr "rezervisi"
+
+msgid "Description"
+msgstr "Opis"
+
+msgid "Equipment"
+msgstr "Oprema"
+
+msgid "General"
+msgstr "Općenito"
+
+msgid "Bathroom"
+msgstr "Kupaonica"
+
+msgid "Kitchen"
+msgstr "Kuhinja"
+
+msgid "Outside"
+msgstr "Vani"
+
+msgid "On request"
+msgstr "Na upit"

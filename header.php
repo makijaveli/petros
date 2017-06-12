@@ -28,8 +28,10 @@
       <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 
       <!-- Add fancyBox -->
+      <?php /*
       <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/fancybox/source/jquery.fancybox.css" type="text/css" media="screen" />
       <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/fancybox/source/jquery.fancybox.pack.js"></script>
+      */ ?>
 
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
    		<meta name="viewport" content="width=device-width, initial-scale=1.0">

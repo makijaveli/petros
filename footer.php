@@ -21,7 +21,9 @@
         <div class="flogo">
               <a href="<?php echo home_url(); ?>"><img src="<?php bloginfo('template_directory'); ?>/images/logo.png" alt=""></a>
               <p>Petros tour operator & DMC </p>
-              <p><?php _e( 'Small groups for a great experience', 'petros' ); ?></p>
+              <?php if(ICL_LANGUAGE_CODE=='en'):  ?>
+                <p><?php _e( 'Small groups for a great experience', 'petros' ); ?></p>
+              <?php endif; ?>  
         </div>
       </div>
 
@@ -34,7 +36,9 @@
       <div class="flogo">
             <a href="<?php echo home_url(); ?>"><img src="<?php bloginfo('template_directory'); ?>/images/logo.png" alt=""></a>
             <p>Petros tour operator & DMC </p>
-            <p><?php _e( 'Small groups for a great experience', 'petros' ); ?></p>
+            <?php if(ICL_LANGUAGE_CODE=='en'):  ?>
+              <p><?php _e( 'Small groups for a great experience', 'petros' ); ?></p>
+            <?php endif; ?>  
       </div>
 
         <?php wp_nav_menu( array( 'theme_location' => 'footer-menu' ) ); ?>

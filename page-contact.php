@@ -2,7 +2,7 @@
 
 get_header(); ?>
 
-<?php get_template_part('template_parts/tp-contactus-hero'); ?>
+<?php get_template_part('template_parts/tp-page-hero'); ?>
 
   <section class="contact">
 

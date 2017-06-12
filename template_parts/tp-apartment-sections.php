@@ -15,11 +15,8 @@
           <li><a href="#gallery"><?php _e( 'Gallery', 'petros' ); ?></a></li>
         <?php endif; ?>
         <?php if($description): ?>
-        <li><a href="#description"><?php _e( 'Description', 'petros' ); ?></a></li>
-        <?php endif; ?>
-        <?php if($equipment): ?>
-        <li><a href="#equipment"><?php _e( 'Equipment', 'petros' ); ?></a></li>
-        <?php endif; ?>
+        <li><a href="#details"><?php _e( 'Details', 'petros' ); ?></a></li>
+        <?php endif; ?>        
         <?php if($location): ?>
         <li><a href="#location"><?php _e( 'Location', 'petros' ); ?></a></li>
         <?php endif; ?>

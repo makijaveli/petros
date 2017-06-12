@@ -102,6 +102,10 @@ i {
 	margin: 0 auto;
 }
 
+.page-content a {
+	color: #1077CE;
+}
+
 /* End Main */
 
 /* Header */
@@ -554,7 +558,7 @@ span.see-more .fa{
 }
 
 .apartment-short-info.hero {
-	max-width: 250px;
+	max-width: 300px;
 	margin: 30px auto 0 auto;
 }
 
@@ -566,21 +570,35 @@ span.see-more .fa{
 	width: 115px;
 }
 
+section#details {
+	padding-top: 0;
+}
+
 /* Tabs */
 
-.etabs { margin: 0; padding: 0; list-style: none; margin-bottom: 20px;}
+.etabs { margin: 0; padding: 0; list-style: none; margin-bottom: 20px; clear: both; display: table;}
 .etabs li::before {content: ' '!important;display: none; }
-.tab { display: inline-block; zoom:1; *display:inline; background: #eee; }
-.tab a { font-size: 14px; line-height: 2em; display: block; padding: 0 10px; outline: none; }
+.tab { display: table; float: left; background: #eee; }
+.tab a { font-size: 16px; line-height: 2em; display: block; padding: 10px 15px; outline: none; color: #1077CE; }
 .tab a:hover { text-decoration: none; }
-.tab.active { background: #fff; padding-top: 6px; position: relative; top: 1px; }
-.tab a.active { font-weight: bold; }
+.tab.active { background: #1077CE; position: relative; top: 1px; }
+.tab a.active { font-weight: bold; color: #fff; }
 .tab-container .panel-container { background: #fff; border: solid #666 1px; padding: 10px; -moz-border-radius: 0 4px 4px 4px; -webkit-border-radius: 0 4px 4px 4px; }
 
-
-
+section#details p {
+	text-align: initial;
+}
 
 /* End Section Categories */
+
+/* Skolska putovanja */ 
+#tabsadrzaj h3, #tabcijene h3  {
+	color: #0059A5;
+}
+
+
+
+
 
 /* Section Blog */
 
@@ -976,7 +994,7 @@ section.catmain #walking-tours h1 {
 	margin-top: 100px;
 }
 
-.category-7 .cards.cat h1 {
+.category-7 .cards.cat h1, .category-36 .cards.cat h1  {
 	margin-top: 100px;
 }
 
@@ -989,7 +1007,15 @@ a.catcard {
 }
 
 .category-4 a.catcard, .category-5 a.catcard, .category-6 a.catcard, .category-7 a.catcard  {
+	/* display: inline-block; */
+}
+
+.category-34 a.catcard {
 	display: inline-block;
+}
+
+.category-34 .wrapper {
+	max-width: 1212px;
 }
 
 span.array {
@@ -1237,6 +1263,11 @@ button:focus {
 	margin-bottom: 15px;
 }
 
+.singleblogpost p a{
+
+}
+
+
 
 .singleblogpost ul{
 	list-style: disc;
@@ -1320,7 +1351,7 @@ section.contact h1 {
 
 .contactform p {
 	color: #212121;
-	margin-bottom: 65px;
+	margin-bottom: 25px;
 }
 
 /* Contact Forma */
@@ -1410,6 +1441,11 @@ input.wpcf7-not-valid {
 	color: white;
 	margin-bottom: 20px;
 }
+
+
+
+.page-template-page-contact .wpcf7-mail-sent-ok, .page-template-default .wpcf7-mail-sent-ok  {position: initial;}
+
 
 /* Mapa */
 
@@ -1970,6 +2006,27 @@ input.hideradio{ /* HIDE RADIO */
 	border-bottom: 1px solid #9e9e9e;
 }
 
+
+
+.bookwrapper .input-row {
+	display: table;
+	clear: both;
+}
+
+.tab-container p {
+	margin-bottom: 10px;
+} 
+
+.ui-datepicker th {
+
+}
+
+.ui-datepicker th span{
+	color: #000;
+	font-size: 10px;
+}
+
+
 /* End Schedule Tour */
 
 /* Subcategories */
@@ -2023,6 +2080,39 @@ section.subcatmp {
 
 section.page p {
 	color: #212121;
+	margin-bottom: 15px;
+}
+section.page ul {
+	font-size: 16px;
+    margin: 0px;
+    margin-left: 20px;
+    list-style: disc;
+    padding-left: 20px;
+}
+section.page table {
+	font-size: 16px;
+}
+
+section.page table {
+	max-width: 100%;
+}
+
+
+section.page table td {
+	padding: 5px;
+}
+
+section.page table thead tr{
+	background-color: #1077CE;
+	color: #fff;
+	padding:5px;
+}
+
+section.page table tbody tr:nth-child(even) {
+	background-color: #ececec;
+}
+section.page table tbody tr:nth-child(odd) {
+	background-color: #f8f8f8;
 }
 
 /* End page default */
@@ -2770,4 +2860,81 @@ img.reslogo {
 	.wpgmza_marker_list_class.wpgmza_basic_list {width: 100% !important;margin-left: 0px;margin-top: 20px;}
 }
 
+
+@media only screen and (min-width:769px) and (max-width:900px) {
+	header {overflow: initial;}
+	.logo {float: initial;line-height: 60px; margin: 0 auto;display: table;}
+	.class-hr nav ul li a {font-size: 16px; margin-right: 5px;}
+}
+
+@media only screen and (min-width:900px) and (max-width:1112px) {
+	header {overflow: initial;}
+	.logo {float: initial;line-height: 60px; margin: 0 auto;display: table;}
+	.class-hr nav ul li a {font-size: 16px; margin-right: 7px;}
+}
+
+
+
+
+@media only screen and (max-width:3000px) {
+
+	.class-hr .footercont {
+		display: none;
+	}
+
+	.class-hr .footerres {
+		display: block;
+	}
+
+	.class-hr footer {
+		height: 445px;
+		line-height: 24px;
+	}
+
+	.class-hr .footerres {
+		display: block;
+		padding-top: 90px;
+		text-align: center;
+	}
+
+	.class-hr .flogo {
+		margin-bottom: 40px;
+	}
+
+	.class-hr .flogo img {
+		margin-bottom: 12px;
+	}
+
+	.class-hr .footerres ul {
+		margin: 0 auto 40px auto;
+		display: inline-block;
+		text-align: center;
+	}
+
+	.class-hr .footerres ul li {
+		float: left;
+		margin-right: 30px;
+	}
+
+	.class-hr .footerres ul li::after {
+		content: "\f054";
+		font-family: FontAwesome;
+		font-size: 12px;
+		margin-left: 10px;
+		color: #fff;
+	}
+
+}
+
+
+
+
+@media only screen and (max-width:768px) {
+	.class-hr .footerres ul li {
+	    float: left;
+	    clear: both;
+	    margin-right: 0px;
+	}
+
+}	
 /* End Responsive */

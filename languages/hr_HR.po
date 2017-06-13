@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: WordPress - Development\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-05-04 20:26+0000\n"
-"PO-Revision-Date: 2017-06-09 07:29+0000\n"
+"PO-Revision-Date: 2017-06-12 15:51+0000\n"
 "Last-Translator: \n"
 "Language-Team: English (USA)\n"
 "Language: en-US\n"
@@ -128,7 +128,7 @@ msgstr "za male grupe i velike doživljaje"
 
 #: petros
 msgid "Licensed local guides"
-msgstr "Licencirani lokalni vodiči"
+msgstr "Licencirani turistički pratitelji"
 
 #: petros
 msgid "Forget the boring facts and figures"

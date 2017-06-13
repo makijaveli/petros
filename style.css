@@ -106,6 +106,18 @@ i {
 	color: #1077CE;
 }
 
+.page-content h1 {
+	font-size: 32px;
+	text-align: initial;
+	margin: 40px 0 30px 0;
+}
+
+.page-content h2 {
+	font-size: 26px;
+	text-align: initial;
+	margin: 30px 0 20px 0;
+}
+
 /* End Main */
 
 /* Header */
@@ -411,6 +423,8 @@ section.inquiry{
 section#aboutus a {
 	color: #1077CE;
 }
+
+section.apartmani-home {background-color: #f5f5f5;}
 
 
 
@@ -1527,21 +1541,25 @@ section#whypetros p {
 }
 
 .works {
+	display: table;
+	width: 100%;
 	margin: 50px 0px;
 	overflow: hidden;
+	text-align: center;
 }
 
 .work {
-	float: left;
+	vertical-align: top;
+	display: inline-block;
 	width: 26%;
 	text-align: center;
-	margin-bottom: 30px;
-	margin-right: 9%;
+	margin: 0 3% 30px 3%;
 }
 
-.work:nth-child(3n+3) {
-	margin-right: 0;
-}
+.class-hr .wrapperus { max-width: 1100px;}
+.class-hr .wrapperus .work {width: 20%; margin: 0 2% 30px 2%;}
+
+
 
 .work i {
 	font-size: 48px;

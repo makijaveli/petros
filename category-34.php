@@ -24,8 +24,8 @@ get_header(); ?>
         $category_ID    = $category->cat_ID;
         $args = array(
              'posts_per_page'   => -1,
-             'cat'               => 34             
-            
+             'cat'               => 34
+
             );
           $query = new WP_Query($args);
            if ($query->have_posts()) : while ($query->have_posts()) : $query->the_post();
@@ -56,7 +56,7 @@ get_header(); ?>
                         </div>
                         <span><?php _e( 'See apartment', 'petros' ); ?></span><span class="array">></span>
                   <?php    } else {  ?>
-                        <span><?php _e( 'See full tour', 'petros' ); ?></span><span class="array">></span>
+                        <span><?php _e( 'More informations', 'petros' ); ?></span><span class="array">></span>
                     <?php  }
 
                    ?>
@@ -74,7 +74,7 @@ get_header(); ?>
         endif;
 
         ?>
-  
+
   </section>
 
 </div>

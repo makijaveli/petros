@@ -4,7 +4,7 @@
 
     <h1><?php _e( 'Inquiry', 'petros' ); ?></h1>
 
-    <p><?php _e( 'If you’d like to send us an inquiry regarding tours, you can do so on using the button bellow.', 'petros' ); ?></p>
+    <p><?php _e( 'If you have any questions do not hesitate to contact us using the button bellow.', 'petros' ); ?></p>
 
     <div class="inquirycta">
 
@@ -16,7 +16,7 @@
             <h1>Schedule a tour</h1>
             <?php echo do_shortcode( '[contact-form-7 id="261" title="Book apartment"]' ); ?>
             <?php } else { ?>
-            <h1>Zakažite turu</h1>
+            <h1>Pošalji upit</h1>
             <?php echo do_shortcode( '[contact-form-7 id="262" title="Rezervisi apartman"]' ); ?>
             <?php } ?>
 

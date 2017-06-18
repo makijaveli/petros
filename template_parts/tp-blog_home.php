@@ -10,15 +10,9 @@
 
   <div class="wrapper">
 
-    <h1>Blog</h1>
+    <h1>Petros Blog</h1>
 
-    <?php query_posts('cat=13&posts_per_page=3'); ?>
-
-    <article class="blog">
-
-        <?php echo category_description(); ?>
-
-    </article>
+    <?php query_posts('cat=13&posts_per_page=4'); ?>
 
     <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 

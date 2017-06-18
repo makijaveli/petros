@@ -31,12 +31,12 @@ get_header(); ?>
 <section class="tourinfo" id="details">
 <h2><?php _e( 'Details', 'petros' ); ?></h2>
   <section id="details">
-    <div class="wrappersingle">      
+    <div class="wrappersingle">
         <div id="tab-container" class="tab-container apartament">
           <ul class='etabs'>
             <li class='tab'><a href="#tabdescription"><?php _e( 'Description', 'petros' ); ?></a></li>
             <li class='tab'><a href="#tabequipment"><?php _e( 'Equipment', 'petros' ); ?></a></li>
-            
+
           </ul>
           <div id="tabdescription">
             <?php the_field('description'); ?>
@@ -58,7 +58,7 @@ get_header(); ?>
                 <?php the_field('kitchen'); ?>
               </div>
               <div class="eqinfo">
-                <span><?php _e( 'Outside', 'petros' ); ?></span>
+                <span><?php _e( 'Room', 'petros' ); ?></span>
                 <?php the_field('outside'); ?>
               </div>
               <div class="eqinfo">
@@ -66,12 +66,12 @@ get_header(); ?>
                 <?php the_field('request'); ?>
               </div>
             </div>
-          </div>          
+          </div>
         </div>
-  </section>  
+  </section>
 
   <?php if(get_field('location_map')): ?>
-    <section id="location">        
+    <section id="location">
         <h2><?php _e( 'Location', 'petros' ); ?></h2>
         <div class="map-location">
           <?php echo do_shortcode(get_field('location_map')); ?>

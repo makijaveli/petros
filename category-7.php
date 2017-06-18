@@ -55,22 +55,22 @@ get_header(); ?>
 
                 <div class="cardinfo">
                   <div class="apartment-short-info">
-                    <div class="basicinfo">                      
+                    <div class="basicinfo">
                       <div class="basic-row">
                         <div class="basicleft"><i class="fa fa-bed" aria-hidden="true"></i><?php _e( 'Bedrooms', 'petros' ); ?></div>
                         <div class="basicright"><?php the_field('bedrooms', $postID); ?></div>
                       </div>
                       <div class="basic-row">
-                        <div class="basicleft"><i class="fa fa-arrows-alt" aria-hidden="true"></i><?php _e( 'Size', 'petros' ); ?></div> 
+                        <div class="basicleft"><i class="fa fa-arrows-alt" aria-hidden="true"></i><?php _e( 'Size', 'petros' ); ?></div>
                         <div class="basicright"><?php the_field('size', $postID); ?></div>
                       </div>
                       <div class="basic-row">
                         <div class="basicleft"><i class="fa fa-users" aria-hidden="true"></i><?php _e( 'Persons', 'petros' ); ?></div>
                         <div class="basicright"><?php the_field('persons' ,$postID); ?></div>
-                      </div>  
+                      </div>
                     </div>
                   </div><!-- /apartment-short-info -->
-                  <span class="see-more"><?php _e( 'See apartment', 'petros' ); ?><i class="fa fa-angle-right" aria-hidden="true"></i>
+                  <span class="see-more"><?php _e( 'More information', 'petros' ); ?><i class="fa fa-angle-right" aria-hidden="true"></i>
 
                 </div>
 

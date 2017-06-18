@@ -42,15 +42,13 @@ msgstr "Rezervacija"
 
 #: petros
 msgid ""
-"If you’d like to send us an inquiry regarding tours, you can do so on using "
-"the button bellow."
+"If you have any questions do not hesitate to contact us using the button bellow."
 msgstr ""
-"Ukoliko želite da nam pošaljete zahtev za turu, možete to učiniti na dugme "
-"ispod."
+"Ukoliko imate pitanja ili želite rezervisati apartman, možete to učiniti klikom na dugme ispod."
 
 #: petros
 msgid "send inquiry"
-msgstr "pošalji zahtev"
+msgstr "pošalji upit"
 
 #: petros
 msgid "Follow us"
@@ -93,6 +91,10 @@ msgid "Meeting points"
 msgstr "Mesta za sastanke"
 
 #: petros
+msgid "More informations"
+msgstr "Više informacija"
+
+#: petros
 msgid "Subscribe to our newsletter"
 msgstr "Pretplati se na naš newsletter"
 
@@ -108,7 +110,7 @@ msgstr "Najnovije priče"
 
 #: petros
 msgid "See full tour"
-msgstr "Pogledaj celu turu"
+msgstr "Saznaj više"
 
 #: petros
 msgid "Small groups for a great experience"
@@ -116,7 +118,7 @@ msgstr "Mala grupa za velika očekivanja"
 
 #: petros
 msgid "All rights reserved."
-msgstr "Sva prava zadržana."
+msgstr "Sva prava pridržana."
 
 #: petros
 msgid "Petros is a tour operator and a destination management company"
@@ -136,7 +138,7 @@ msgstr "Zaboravite na dosadne činjenice"
 
 #: petros
 msgid "Always at your disposal"
-msgstr "Uvek na raspolaganju"
+msgstr "Uvijek na raspolaganju"
 
 #: petros
 msgid "Pick up and drop off"
@@ -166,7 +168,7 @@ msgstr "Radno vreme:"
 
 #: petros
 msgid "Head office:"
-msgstr "Glavna kancelarija:"
+msgstr "Glavna poslovnica:"
 
 #: petros
 msgid "Tours and day trips contact:"
@@ -192,13 +194,13 @@ msgid "Book now"
 msgstr "Rezerviši"
 
 msgid "Details"
-msgstr "Detalji"
+msgstr "Opis"
 
 msgid "More info"
-msgstr "Više"
+msgstr "Saznaj više"
 
 msgid "book now"
-msgstr "rezervisi"
+msgstr "Rezerviraj apartman"
 
 msgid "Description"
 msgstr "Opis"
@@ -216,7 +218,7 @@ msgid "Kitchen"
 msgstr "Kuhinja"
 
 msgid "Outside"
-msgstr "Vani"
+msgstr "Soba"
 
 msgid "On request"
 msgstr "Na upit"

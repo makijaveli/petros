@@ -16,7 +16,7 @@
         <?php endif; ?>
         <?php if($description): ?>
         <li><a href="#details"><?php _e( 'Details', 'petros' ); ?></a></li>
-        <?php endif; ?>        
+        <?php endif; ?>
         <?php if($location): ?>
         <li><a href="#location"><?php _e( 'Location', 'petros' ); ?></a></li>
         <?php endif; ?>
@@ -34,7 +34,7 @@
               <h1>Book apartment</h1>
               <?php echo do_shortcode( '[contact-form-7 id="261" title="Book apartment"]' ); ?>
               <?php } else { ?>
-              <h1>Rezervišite apartman</h1>
+              <h1>Rezerviraj apartman</h1>
               <?php echo do_shortcode( '[contact-form-7 id="262" title="Rezervisi apartman"]' ); ?>
               <?php } ?>
 

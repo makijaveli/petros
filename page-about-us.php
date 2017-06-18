@@ -16,8 +16,6 @@ get_header(); ?>
 
   <h1><?php _e( 'Why Petros', 'petros' ); ?>?</h1>
 
-  <p><?php _e( 'Petros is a tour operator and a destination management company', 'petros' ); ?> </p> <p><?php _e( 'for small groups and great experience', 'petros' ); ?> </p>
-
   <div class="works">
 
 

@@ -605,7 +605,7 @@ section#details p {
 
 /* End Section Categories */
 
-/* Skolska putovanja */ 
+/* Skolska putovanja */
 #tabsadrzaj h3, #tabcijene h3  {
 	color: #0059A5;
 }
@@ -632,15 +632,10 @@ article.blogrelated:first-of-type {
 article.blog {
   width: 280px;
   float: left;
-  margin-right: 30px;
+  margin-right: 20px;
   position: relative;
 	transition: 1s;
 	webkit-transition: 1s;
-}
-
-article.blog:first-of-type {
-  width: 250px;
-  margin-right: 50px;
 }
 
 article.blog:last-child {
@@ -2033,7 +2028,7 @@ input.hideradio{ /* HIDE RADIO */
 
 .tab-container p {
 	margin-bottom: 10px;
-} 
+}
 
 .ui-datepicker th {
 
@@ -2230,12 +2225,14 @@ a.goback:hover {
 }
 
 .brochures-item a.link-title {
-	color: #1077CE; 
+	color: #1077CE;
 	font-size:22px;
 }
 
 
-
+.page-id-1027 span {
+	color: #212121;
+}
 
 
 /* Responsive */
@@ -2552,11 +2549,6 @@ img.reslogo {
 			float: none;
 		}
 
-		article.blog:first-of-type {
-			width: 280px;
-			margin-right: auto;
-		}
-
 		article.blog:last-child {
 			margin-right: auto;
 		}
@@ -2594,6 +2586,10 @@ img.reslogo {
 		.most-popular-block {
 			margin: 0 auto 20px auto;
 			float: none;
+		}
+
+		.most-popular-block:nth-child(3n+1) {
+			margin-right: auto;
 		}
 
 		.ctamp {
@@ -2954,5 +2950,5 @@ img.reslogo {
 	    margin-right: 0px;
 	}
 
-}	
+}
 /* End Responsive */

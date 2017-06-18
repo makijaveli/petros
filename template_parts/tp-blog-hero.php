@@ -22,7 +22,7 @@ $GLOBALS['wp_embed']->post_ID = $taxonomy . '_' . $term_id;
       $town = get_field('town', $queried_object);
   ?>
 
-      <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt'] ?>">
+      <div class="cathero" style="background-image: url('<?php echo $image['url']; ?>');">
 
       <div class="overlay"></div>
 
@@ -41,6 +41,8 @@ $GLOBALS['wp_embed']->post_ID = $taxonomy . '_' . $term_id;
         </div>
 
       </div>
+
+    </div>
 
 </div>
 

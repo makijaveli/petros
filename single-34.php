@@ -29,21 +29,21 @@ get_header(); ?>
 <section class="tourinfo" id="details">
 <h2><?php _e( 'Detalji ponude', 'petros' ); ?></h2>
   <section id="details">
-    <div class="wrappersingle">      
+    <div class="wrappersingle">
         <div id="tab-container" class="tab-container apartament">
           <ul class='etabs'>
             <li class='tab'><a href="#tabsadrzaj"><?php _e( 'Sadržaj', 'petros' ); ?></a></li>
-            <li class='tab'><a href="#tabcijene"><?php _e( 'Cijene aranžmana', 'petros' ); ?></a></li>
-            
+            <li class='tab'><a href="#tabcijene"><?php _e( 'Cijena aranžmana', 'petros' ); ?></a></li>
+
           </ul>
           <div id="tabsadrzaj">
             <?php the_field('sadrzaj'); ?>
           </div>
-          <div id="tabcijene">              
-                <?php the_field('cijene_aranzmana'); ?>           
-          </div>          
+          <div id="tabcijene">
+                <?php the_field('cijene_aranzmana'); ?>
+          </div>
         </div>
-  </section>  
+  </section>
 
 </section>
 

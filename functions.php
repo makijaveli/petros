@@ -108,7 +108,7 @@ function petros_header_scripts()
 
         wp_register_script('hashchange', get_template_directory_uri() . '/js/jquery.hashchange.min.js', array('jquery'), '1.0.0');
         wp_enqueue_script('hashchange'); // Enqueue it!
- 
+
         wp_register_script('petrosscripts', get_template_directory_uri() . '/js/scripts.js', array('jquery'), '1.0.0');
         wp_enqueue_script('petrosscripts'); // Enqueue it!
     }
@@ -169,7 +169,8 @@ function register_my_menus() {
   register_nav_menus(
     array(
       'header-menu' => __( 'Header Menu' ),
-      'footer-menu' => __( 'Footer Menu' )
+      'footer-menu' => __( 'Footer Menu' ),
+			'header-res-menu' => __( 'Header Res Menu' )
     )
   );
 }

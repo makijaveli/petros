@@ -2446,7 +2446,7 @@ img.reslogo {
 			font-size: 18px !important;
 		}
 
-		.menu-header-menu-container {
+		.menu-header-res-menu-container {
 				display: table !important;
 				border-bottom: 1px solid #fff;
 				margin-bottom: 10px;
@@ -2817,7 +2817,8 @@ img.reslogo {
 		}
 
 		#fancybox-outer {
-			width: auto !important;
+			width: 350px !important;
+			margin: 0 auto;
 		}
 
 		#contact_form_pop h1 {
@@ -2864,6 +2865,16 @@ img.reslogo {
 			float: none;
 			text-align: center;
 			margin-bottom: 20px;
+		}
+
+		img#fancybox-img {
+			width: 100%;
+		}
+
+		#fancybox-wrap {
+			width: 100% !important;
+			padding: 0 !important;
+			left: 0 !important;
 		}
 
 }

@@ -36,9 +36,9 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
    		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-      
+
       <script  src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
-      
+
 
       <link href="https://fonts.googleapis.com/css?family=Istok+Web:400,400i,700,700i&amp;subset=latin-ext" rel="stylesheet">
 
@@ -49,11 +49,11 @@
   		<script src="<?php bloginfo('template_directory'); ?>/js/jquery.easing.1.3.js"></script>
 
 
-      
+
 
   		<script>
     		jQuery(document).ready(function(){
-    		  
+
 
           var slider = jQuery('.slider').bxSlider({
             auto: true,
@@ -61,9 +61,9 @@
             prevText: ''
           });
 
-          jQuery('.cta').mouseenter(function() {   
-             slider.stopAuto();      
-           }).mouseleave(function() {   
+          jQuery('.cta').mouseenter(function() {
+             slider.stopAuto();
+           }).mouseleave(function() {
                slider.startAuto();
            });
 
@@ -72,7 +72,7 @@
     		});
   		</script>
 
-      
+
 
 
 
@@ -95,7 +95,7 @@
       <!-- smoth scroll to div -->
 
       <script>
-      
+
       </script>
 
       <?php /*
@@ -174,7 +174,7 @@
 
     <div id="menu">
 
-      <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
+      <?php wp_nav_menu( array( 'theme_location' => 'header-res-menu' ) ); ?>
 
       <?php wp_nav_menu( array( 'theme_location' => 'footer-menu' ) ); ?>
 

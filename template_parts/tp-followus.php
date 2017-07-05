@@ -5,10 +5,10 @@
     <h1><?php _e( 'Follow us', 'petros' ); ?></h1>
 
       <?php if(ICL_LANGUAGE_CODE=='en') { ?>
-        <p>For more informaration regarding our tours and activities you can connect, <br>
+        <p>For more information regarding our tours and activities you can connect <br>
         with us on our official social media pages.</p>
       <?php } else { ?>
-      
+
       <?php } ?>
 
       <div class="followsocial">

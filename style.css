@@ -2699,7 +2699,7 @@ img.reslogo {
 
 		.work {
 			float: none;
-			width: 100%;
+			width: 100% !important;
 		}
 
 		.work i {
